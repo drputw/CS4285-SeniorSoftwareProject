@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	
+<TextView android:layout_width="fill_parent" android:background="#000000"
+		android:layout_height="wrap_content"
+		android:id="@+id/tvName"
+		android:textStyle="bold"
+		android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+		
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:textSize="15dp" 
+			android:padding="5dp">
+
+			<TextView android:layout_height="wrap_content" android:text="Major(s) &amp; Minor(s)"
+				android:id="@+id/tvCourseLabel" android:textStyle="bold" android:layout_marginTop="40dp"
+				android:layout_marginBottom="5dp" android:layout_width="match_parent"></TextView>
+				
+			<TextView android:layout_height="wrap_content"
+				android:id="@+id/tvMajor" android:layout_marginLeft="20dp"
+				android:layout_width="wrap_content"></TextView>
+			
+			<TextView android:layout_height="wrap_content"
+				android:id="@+id/tvMajor2" android:layout_marginLeft="20dp"
+				android:layout_width="wrap_content"></TextView>
+			
+			<TextView android:layout_height="wrap_content"
+				android:id="@+id/tvMajor3" android:layout_marginLeft="20dp"
+				android:layout_width="wrap_content"></TextView>
+			
+			<TextView android:layout_height="wrap_content"
+				android:id="@+id/tvMajor4" android:layout_marginLeft="20dp"
+				android:layout_width="wrap_content"></TextView>
+
+			<TextView android:layout_height="wrap_content" android:text="Year"
+				android:id="@+id/tvRankLabel" android:textStyle="bold"
+				android:layout_marginTop="15dp"
+				android:layout_marginBottom="5dp" android:layout_width="match_parent"></TextView>
+				
+			<TextView android:layout_height="wrap_content"
+				android:id="@+id/tvRank" android:layout_marginLeft="20dp"
+				android:layout_width="wrap_content" android:layout_marginBottom="15dp"></TextView>
+
+			<TextView android:layout_height="wrap_content" android:text="General Times Available"
+				android:id="@+id/tvTimes" android:textStyle="bold"
+				android:layout_width="wrap_content"
+				android:layout_marginBottom="5dp"></TextView>
+
+			<TextView android:layout_height="wrap_content"
+				android:id="@+id/tvAvailability"
+				android:layout_marginBottom="15dp" android:layout_marginLeft="20dp"
+				android:layout_width="match_parent"
+				android:layout_weight="0.02"></TextView>
+
+			<TextView android:layout_height="wrap_content" android:text="Email"
+				android:id="@+id/tvEmailLabel" android:textStyle="bold"
+				android:layout_marginBottom="5dp" android:layout_width="match_parent"></TextView>
+
+			<TextView android:layout_height="wrap_content"
+				android:id="@+id/tvEmail" android:layout_marginLeft="20dp" android:singleLine="true"
+				android:layout_width="wrap_content" android:layout_marginBottom="15dp"></TextView>
+
+			<TextView android:layout_height="wrap_content" android:text="Phone"
+				android:id="@+id/tvPhoneLabel" android:textStyle="bold"
+				android:layout_width="wrap_content"
+				android:layout_marginBottom="5dp"></TextView>
+
+			<TextView android:layout_height="wrap_content"
+				android:id="@+id/tvPhone" android:layout_marginLeft="20dp" android:singleLine="true"
+				android:layout_width="wrap_content" android:layout_marginBottom="15dp"></TextView>
+
+			<TextView android:layout_height="wrap_content" android:text="Description"
+				android:id="@+id/tvDescriptionLabel" android:textStyle="bold"
+				android:layout_width="wrap_content"
+				android:layout_marginBottom="5dp"></TextView>
+
+			<TextView android:layout_height="wrap_content"
+				android:id="@+id/tvDescription" android:layout_marginLeft="20dp"
+				android:layout_marginBottom="15dp"
+				android:layout_width="match_parent" android:layout_weight="0.02"></TextView>
+
+			<LinearLayout android:id="@+id/linearLayout1"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="horizontal">
+			
+				<Button android:layout_height="wrap_content" android:id="@+id/tutor_detail_call" android:layout_weight="1"
+					android:text="Call Tutor" android:layout_width="match_parent" android:onClick="CallTutor"></Button>
+	
+				<Button android:layout_height="wrap_content" android:id="@+id/tutor_detail_email" android:layout_weight="1"
+					android:text="Email Tutor" android:layout_width="match_parent" android:onClick="Email"></Button>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</TabHost>

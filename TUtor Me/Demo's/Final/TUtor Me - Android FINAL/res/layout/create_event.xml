@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent" >
+			
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/tvName"
+				android:layout_marginBottom="15dp" android:textStyle="bold"
+				android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+			
+			<TextView android:text="Email"
+				android:id="@+id/tvEmailLabel" android:textStyle="bold"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="5dp"></TextView>
+
+			<TextView android:id="@+id/tvEmail"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:layout_marginLeft="20dp"
+				android:layout_marginBottom="15dp"/>
+			
+			<TextView android:text="Phone"
+				android:id="@+id/tvPhoneLabel" android:textStyle="bold"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:layout_marginBottom="5dp"></TextView>
+
+			<TextView android:id="@+id/tvPhone"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp" 
+				android:layout_marginBottom="15dp"/>
+
+			<TextView android:layout_height="wrap_content" android:text="Subject"
+				android:id="@+id/tvSubject" android:textStyle="bold"
+				android:layout_width="wrap_content"
+				android:layout_marginBottom="5dp"></TextView>
+
+			<Spinner android:id="@+id/sSubject"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:layout_marginBottom="15dp"/>
+
+			<TextView android:layout_height="wrap_content" android:text="Event Name"
+				android:id="@+id/tvEventName" android:textStyle="bold"
+				android:layout_width="wrap_content"
+				android:layout_marginBottom="5dp" />
+
+			<EditText android:id="@+id/etEventName"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" 
+				android:layout_marginBottom="15dp"/>
+
+			<TextView android:layout_height="wrap_content" android:text="Location"
+				android:id="@+id/tvLoc" android:textStyle="bold"
+				android:layout_width="wrap_content"
+				android:layout_marginBottom="15dp"></TextView>
+
+			<EditText android:id="@+id/etLoc"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" 
+				android:layout_marginBottom="15dp"/>
+
+			<TextView android:layout_height="wrap_content" android:text="Date"
+				android:id="@+id/tvDate" 
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_marginBottom="5dp"></TextView>
+
+			<DatePicker android:id="@+id/dpDateEvent"
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" android:layout_marginBottom="15dp" />
+
+			<TextView android:layout_height="wrap_content" android:text="Time Start"
+				android:id="@+id/tvTimeLabel" android:textStyle="bold"
+				android:layout_width="wrap_content"
+				android:layout_marginBottom="5dp"/>
+
+			<TimePicker android:id="@+id/tpTimeStart"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginBottom="15dp" />
+			
+			<TextView android:layout_height="wrap_content" android:text="Time End"
+				android:id="@+id/tvTimeLabels" android:textStyle="bold"
+				android:layout_width="wrap_content"
+				android:layout_marginBottom="5dp"/>
+			
+			<TimePicker android:id="@+id/tpTimeEnd"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginBottom="15dp" />
+
+			<TextView android:layout_height="wrap_content" android:text="Description"
+				android:id="@+id/tvDescriptionLabel" android:textStyle="bold"
+				android:layout_width="wrap_content"
+				android:layout_marginBottom="5dp"></TextView>
+
+			<EditText android:id="@+id/etDescription"
+				android:layout_width="match_parent"
+				android:inputType="textMultiLine" android:layout_height="wrap_content" 
+				android:layout_marginBottom="15dp"/>
+			
+			<LinearLayout android:id="@+id/linearLayout1"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="horizontal">
+
+				<Button android:text="Create Event" android:id="@+id/btnCreate"
+					android:layout_gravity="center_vertical|center_horizontal|center" android:layout_weight="1"
+					android:layout_width="match_parent" android:layout_height="wrap_content"></Button>
+
+				<Button android:text="Cancel" android:id="@+id/btnCancel"
+					android:layout_gravity="center_vertical|center_horizontal|center" android:layout_weight="1"
+					android:layout_width="match_parent" android:layout_height="wrap_content"></Button>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</TabHost>

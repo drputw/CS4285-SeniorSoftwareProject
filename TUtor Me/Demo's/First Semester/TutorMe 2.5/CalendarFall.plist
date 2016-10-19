@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Date</key>
+		<string>August 15-19</string>
+		<key>Description</key>
+		<string>Faculty Orientation</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>August 18</string>
+		<key>Description</key>
+		<string>New undergraduate student orientation begins</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>August 18</string>
+		<key>Description</key>
+		<string>New Student Move-in Day</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>August 20</string>
+		<key>Description</key>
+		<string>Residence halls open for sophomores</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>August 21</string>
+		<key>Description</key>
+		<string>Residence halls open for juniors/seniors</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>August 22</string>
+		<key>Description</key>
+		<string>Academic advising begins</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>August 22-23</string>
+		<key>Description</key>
+		<string>Registration begins (see Fall 2011 Class Schedule for registration information)</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>August 24</string>
+		<key>Description</key>
+		<string>Beginning of classes: 8:30 a.m.</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>August 24</string>
+		<key>Description</key>
+		<string>Add/Drop and late registration begin</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>August 31</string>
+		<key>Description</key>
+		<string>Add/Drop ends and last day to register</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>September 1</string>
+		<key>Description</key>
+		<string>First day to apply for a degree at Spring Commencement</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>September 5</string>
+		<key>Description</key>
+		<string>Labor Day; University holiday; offices closed; no classes</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>September 14</string>
+		<key>Description</key>
+		<string>Last day to change Pass/Fail</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>September 30</string>
+		<key>Description</key>
+		<string>Fall Family Weekend</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>October 1</string>
+		<key>Description</key>
+		<string>Fall Family Weekend</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>October 14</string>
+		<key>Description</key>
+		<string>Mid-semester recess; no classes; offices open</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>October 18</string>
+		<key>Description</key>
+		<string>Last day a graduate student may withdraw from a course without approval</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>October 18</string>
+		<key>Description</key>
+		<string>Mid-semester grades due: 5:00 p.m.</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>October 27</string>
+		<key>Description</key>
+		<string>Last day an undergraduate student may withdraw from a course with a “W”</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string> November 7-18</string>
+		<key>Description</key>
+		<string>Registration for Spring semester 2012</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>November 22</string>
+		<key>Description</key>
+		<string>Last day for graduate degree candidates to submit theses or projects to Academic Affairs (Winter Commencement)</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>November 22</string>
+		<key>Description</key>
+		<string>Honors theses due in Office of Academic Affairs for December degree candidates</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>November 23-25</string>
+		<key>Description</key>
+		<string>Thanksgiving holidays; no classes</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>December 1</string>
+		<key>Description</key>
+		<string>Last day to apply for a degree at Spring Commencement</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>December 7-8</string>
+		<key>Description</key>
+		<string>Reading Days</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>December 9-15</string>
+		<key>Description</key>
+		<string>Final examinations (begin on Dec. 9: 8:30 a.m.)</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>December 15</string>
+		<key>Description</key>
+		<string>Grades due for degree candidates: noon</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>December 17</string>
+		<key>Description</key>
+		<string>Residence halls close at noon, Dec. 17, except for graduating seniors who may remain until noon, Dec. 18</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>December 17</string>
+		<key>Description</key>
+		<string>Winter Commencement: 10:00 a.m.</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>December 19</string>
+		<key>Description</key>
+		<string>Fall semester grades due: 5:00 p.m.</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>December 23-29</string>
+		<key>Description</key>
+		<string>Christmas holidays: offices closed</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>December 30</string>
+		<key>Description</key>
+		<string>New Year’s Day (observed)</string>
+	</dict>
+</array>
+</plist>

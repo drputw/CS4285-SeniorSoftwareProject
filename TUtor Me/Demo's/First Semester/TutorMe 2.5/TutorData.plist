@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Major</key>
+		<string>Computer Science</string>
+		<key>Name</key>
+		<string>James Seales</string>
+		<key>Rank</key>
+		<string>Senior</string>
+		<key>Icon</key>
+		<string>computer.png</string>
+	</dict>
+	<dict>
+		<key>Major</key>
+		<string>Business Administration</string>
+		<key>Name</key>
+		<string>Joshua Cavazos</string>
+		<key>Rank</key>
+		<string>Senior</string>
+		<key>Icon</key>
+		<string>business.png</string>
+	</dict>
+	<dict>
+		<key>Major</key>
+		<string>Theatre</string>
+		<key>Name</key>
+		<string>Evan Barnett</string>
+		<key>Rank</key>
+		<string>Junior</string>
+		<key>Icon</key>
+		<string>Theatre.png</string>
+	</dict>
+	<dict>
+		<key>Major</key>
+		<string>Biology</string>
+		<key>Name</key>
+		<string>Amanda Tumey</string>
+		<key>Rank</key>
+		<string>Sophomore</string>
+		<key>Icon</key>
+		<string>science.png</string>
+	</dict>
+	<dict>
+		<key>Major</key>
+		<string>Mathematics</string>
+		<key>Name</key>
+		<string>Maurice Eggen</string>
+		<key>Rank</key>
+		<string>Freshman</string>
+		<key>Icon</key>
+		<string>math.png</string>
+	</dict>
+	<dict>
+		<key>Major</key>
+		<string>Music</string>
+		<key>Name</key>
+		<string>Dustin Nelson</string>
+		<key>Rank</key>
+		<string>Senior</string>
+		<key>Icon</key>
+		<string>Music.png</string>
+	</dict>
+</array>
+</plist>

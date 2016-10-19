@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Major</key>
+		<string>All</string>
+	</dict>
+	<dict>
+		<key>Major</key>
+		<string>Business Administration</string>
+	</dict>
+	<dict>
+		<key>Major</key>
+		<string>Chemistry</string>
+	</dict>
+	<dict>
+		<key>Major</key>
+		<string>Computer Science</string>
+	</dict>
+	<dict>
+		<key>Major</key>
+		<string>Economics</string>
+	</dict>
+	<dict>
+		<key>Major</key>
+		<string>Human Communication</string>
+	</dict>
+	<dict>
+		<key>Major</key>
+		<string>Mathematics</string>
+	</dict>
+	<dict>
+		<key>Major</key>
+		<string>Music</string>
+	</dict>
+	<dict>
+		<key>Major</key>
+		<string>Philosophy</string>
+	</dict>
+	<dict>
+		<key>Major</key>
+		<string>Political Science</string>
+	</dict>
+	<dict>
+		<key>Major</key>
+		<string>Religion</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SeniorSoftwareActivity!</string>
+    <string name="app_name">TUtor Me</string>
+    <string name="app_name_fall_calendar">Fall Calendar</string>
+    <string name="app_name_spring_calendar">Spring Calendar</string>
+    <string name="app_name_create_study_event">Create Study Event</string>
+    <string name="app_name_about">About</string>
+    <string name="app_name_tutor_details">Tutor Details</string>
+    <string name="app_name_events_attending">Events Attending</string>
+    <string name="app_name_organized_events">Organized Attending</string>
+    <string name="app_name_edit_tutor">Edit Tutor</string>
+    <string name="app_name_the_code">The Code</string>
+    <string name="app_name_category_tutors">Tutor Categories</string>
+    <string name="app_name_category_study">Study Categories</string>
+    <string name="app_name_code_background">Philosophy and Background</string>
+    <string name="app_name_code_faq">FAQ</string>
+    <string name="Subject_Prompt">Choose a Subject</string>
+    <string-array name="subjects_array">
+		<item>None</item>
+        <item>Art</item>
+        <item>Computer Science</item>
+        <item>English</item>
+        <item>History</item>
+        <item>Math</item>
+        <item>Physics</item>
+        <item>Physical Education</item>
+        <item>Women and Gender Studies</item>
+    </string-array>
+</resources>

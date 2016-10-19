@@ -1,0 +1,3 @@
+/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/RootViewController.m: In function '-[RootViewController drawRect:]':
+/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/RootViewController.m:294: warning: implicit declaration of function 'NewPathWithRoundRect'
+/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/RootViewController.m:294: warning: initialization makes pointer from integer without a cast

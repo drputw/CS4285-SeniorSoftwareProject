@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1811EE0711D015E20068DA4C /* DarkBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1811EDF611D015E20068DA4C /* DarkBackground.png */; };
+		1811EE1111D015E20068DA4C /* LightBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1811EE0011D015E20068DA4C /* LightBackground.png */; };
+		1811EE1311D015E20068DA4C /* StarsBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1811EE0211D015E20068DA4C /* StarsBackground.png */; };
+		1811EE1411D015E20068DA4C /* StarsForeground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1811EE0311D015E20068DA4C /* StarsForeground.png */; };
+		1A0551D41462985D0055C91A /* TutorEditProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0551D21462985D0055C91A /* TutorEditProfile.m */; };
+		1A0551D51462985D0055C91A /* TutorEditProfile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A0551D31462985D0055C91A /* TutorEditProfile.xib */; };
+		1A1011D6144406EF00776DC5 /* 19-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1011CE144406EF00776DC5 /* 19-gear.png */; };
+		1A1011D7144406EF00776DC5 /* 19-gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1011CF144406EF00776DC5 /* 19-gear@2x.png */; };
+		1A1011D8144406EF00776DC5 /* 83-calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1011D0144406EF00776DC5 /* 83-calendar.png */; };
+		1A1011D9144406EF00776DC5 /* 83-calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1011D1144406EF00776DC5 /* 83-calendar@2x.png */; };
+		1A1011DA144406EF00776DC5 /* 96-book.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1011D2144406EF00776DC5 /* 96-book.png */; };
+		1A1011DB144406EF00776DC5 /* 96-book@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1011D3144406EF00776DC5 /* 96-book@2x.png */; };
+		1A1011DC144406EF00776DC5 /* 112-group.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1011D4144406EF00776DC5 /* 112-group.png */; };
+		1A1011DD144406EF00776DC5 /* 112-group@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1011D5144406EF00776DC5 /* 112-group@2x.png */; };
+		1A1011E1144412AD00776DC5 /* TutorData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A1011E0144412AD00776DC5 /* TutorData.plist */; };
+		1A1011EB14441ECA00776DC5 /* StudyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A1011E914441ECA00776DC5 /* StudyCell.xib */; };
+		1A1011EF14441F0A00776DC5 /* StudyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1011ED14441F0A00776DC5 /* StudyViewController.m */; };
+		1A1011F214441F5C00776DC5 /* StudyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A1011F114441F5C00776DC5 /* StudyViewController.xib */; };
+		1A1011F61444216800776DC5 /* StudyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1011F51444216800776DC5 /* StudyCell.m */; };
+		1A1011F91444226400776DC5 /* ApplicationCellEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1011F81444226400776DC5 /* ApplicationCellEvent.m */; };
+		1A1012041444280600776DC5 /* StudyData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A1012031444280600776DC5 /* StudyData.plist */; };
+		1A244FE014467B72001E060A /* 123-id-card.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A244FDE14467B72001E060A /* 123-id-card.png */; };
+		1A244FE114467B72001E060A /* 123-id-card@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A244FDF14467B72001E060A /* 123-id-card@2x.png */; };
+		1A244FE6144685DE001E060A /* business.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A244FE2144685DE001E060A /* business.png */; };
+		1A244FE7144685DE001E060A /* computer.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A244FE3144685DE001E060A /* computer.png */; };
+		1A244FE9144685DE001E060A /* science.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A244FE5144685DE001E060A /* science.png */; };
+		1A244FED144686B6001E060A /* math.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A244FEC144686B6001E060A /* math.png */; };
+		1A4C376D148AD33500A4052C /* TutorSpecial.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A4C376C148AD33500A4052C /* TutorSpecial.plist */; };
+		1A4C3770148AD9F700A4052C /* StudySpecial.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A4C376F148AD9F700A4052C /* StudySpecial.plist */; };
+		1A55AB921461CE2900D4A354 /* AboutBoard.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A55AB911461CE2900D4A354 /* AboutBoard.png */; };
+		1A55AB9D1461D84600D4A354 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A55AB9B1461D84600D4A354 /* CalendarViewController.m */; };
+		1A55AB9E1461D84600D4A354 /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A55AB9C1461D84600D4A354 /* CalendarViewController.xib */; };
+		1A55ABA21461D87F00D4A354 /* ApplicationCellCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A55ABA11461D87F00D4A354 /* ApplicationCellCalendar.m */; };
+		1A55ABA51461D8BA00D4A354 /* CalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A55ABA41461D8BA00D4A354 /* CalendarCell.m */; };
+		1A55ABA71461DA5500D4A354 /* CalendarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A55ABA61461DA5500D4A354 /* CalendarCell.xib */; };
+		1A55ABA91461E02400D4A354 /* CalendarFall.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A55ABA81461E02400D4A354 /* CalendarFall.plist */; };
+		1A55ABAB1461E52300D4A354 /* CalendarSpring.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A55ABAA1461E52300D4A354 /* CalendarSpring.plist */; };
+		1A750F8414451FB40033B166 /* theatre.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A750F8214451FB40033B166 /* theatre.png */; };
+		1A750F8514451FB40033B166 /* Music.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A750F8314451FB40033B166 /* Music.png */; };
+		1A7C9049146098B000D48CDE /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C9047146098B000D48CDE /* AboutViewController.m */; };
+		1A7C904A146098B000D48CDE /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A7C9048146098B000D48CDE /* AboutViewController.xib */; };
+		1A7DF1E614449D95006F130A /* AcademicInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7DF1E414449D95006F130A /* AcademicInfoViewController.m */; };
+		1A7DF1E714449D95006F130A /* AcademicInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A7DF1E514449D95006F130A /* AcademicInfoViewController.xib */; };
+		1ABE6E39148C5F6C00FE919A /* TrinityRestQueryGuts.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE6E36148C5F6C00FE919A /* TrinityRestQueryGuts.m */; };
+		1AC17791146229DA00469086 /* TutorCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC1778F146229DA00469086 /* TutorCategoryViewController.m */; };
+		1AC17792146229DA00469086 /* TutorCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AC17790146229DA00469086 /* TutorCategoryViewController.xib */; };
+		1AC1779514622B1400469086 /* TutorMajors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AC1779414622B1300469086 /* TutorMajors.plist */; };
+		1AC1779F146265A500469086 /* StudyDataAttending.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AC1779D146265A500469086 /* StudyDataAttending.plist */; };
+		1AC177A0146265A500469086 /* StudyDataOrganized.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AC1779E146265A500469086 /* StudyDataOrganized.plist */; };
+		1AC177A4146267E300469086 /* StudyCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC177A2146267E300469086 /* StudyCategoryViewController.m */; };
+		1AC177A5146267E300469086 /* StudyCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AC177A3146267E300469086 /* StudyCategoryViewController.xib */; };
+		1AC177AD146270F300469086 /* AddStudyEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC177AB146270F300469086 /* AddStudyEvent.m */; };
+		1AC177AE146270F300469086 /* AddStudyEvent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AC177AC146270F300469086 /* AddStudyEvent.xib */; };
+		1AC4670114469AF700196E60 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC466FB14469AF700196E60 /* Icon-72.png */; };
+		1AC4670214469AF700196E60 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC466FC14469AF700196E60 /* Icon-Small-50.png */; };
+		1AC4670314469AF700196E60 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC466FD14469AF700196E60 /* Icon-Small.png */; };
+		1AC4670414469AF700196E60 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC466FE14469AF700196E60 /* Icon-Small@2x.png */; };
+		1AC4670514469AF700196E60 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC466FF14469AF700196E60 /* Icon.png */; };
+		1AC4670614469AF700196E60 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC4670014469AF700196E60 /* Icon@2x.png */; };
+		1AC502D91461C4310000F46D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC502D81461C4310000F46D /* MessageUI.framework */; };
+		1AC7F2F214442C9700BC0467 /* CalendarBlank.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC7F2F014442C9700BC0467 /* CalendarBlank.png */; };
+		1ACCE1CE1444E11100C4A3D8 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACCE1CC1444E11100C4A3D8 /* SettingsViewController.m */; };
+		1ACCE1CF1444E11100C4A3D8 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ACCE1CD1444E11100C4A3D8 /* SettingsViewController.xib */; };
+		1ACCE1D71444E40F00C4A3D8 /* TutorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACCE1D51444E40F00C4A3D8 /* TutorDetailViewController.m */; };
+		1ACCE1D81444E40F00C4A3D8 /* TutorDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ACCE1D61444E40F00C4A3D8 /* TutorDetailViewController.xib */; };
+		1ACCE1E91444F5E200C4A3D8 /* CalendarMay7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ACCE1E61444F5E200C4A3D8 /* CalendarMay7.png */; };
+		1ACCE1EA1444F5E200C4A3D8 /* CalendarAugust29.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ACCE1E71444F5E200C4A3D8 /* CalendarAugust29.png */; };
+		1ACCE1EB1444F5E200C4A3D8 /* CalendarOctober13.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ACCE1E81444F5E200C4A3D8 /* CalendarOctober13.png */; };
+		1ACCE1EF1444F8CA00C4A3D8 /* CalendarJuly28.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ACCE1EC1444F8CA00C4A3D8 /* CalendarJuly28.png */; };
+		1ACCE1F01444F8CA00C4A3D8 /* CalendarDecember25.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ACCE1ED1444F8CA00C4A3D8 /* CalendarDecember25.png */; };
+		1ACCE1F11444F8CA00C4A3D8 /* CalendarNovember17.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ACCE1EE1444F8CA00C4A3D8 /* CalendarNovember17.png */; };
+		1ACCE1F51444FA0700C4A3D8 /* StudyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACCE1F31444FA0700C4A3D8 /* StudyDetailViewController.m */; };
+		1ACCE1F61444FA0700C4A3D8 /* StudyDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ACCE1F41444FA0700C4A3D8 /* StudyDetailViewController.xib */; };
+		1AD567A6148DB80800FFCA7F /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD567A5148DB80800FFCA7F /* TPKeyboardAvoidingScrollView.m */; };
+		1AD567AB148DBB3C00FFCA7F /* FAQTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD567A9148DBB3C00FFCA7F /* FAQTest.m */; };
+		1AD567AC148DBB3C00FFCA7F /* FAQTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD567AA148DBB3C00FFCA7F /* FAQTest.xib */; };
+		1AD567B0148DC28C00FFCA7F /* FAQAnswers.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD567AE148DC28C00FFCA7F /* FAQAnswers.m */; };
+		1AD567B1148DC28C00FFCA7F /* FAQAnswers.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD567AF148DC28C00FFCA7F /* FAQAnswers.xib */; };
+		1AD567B3148DC38500FFCA7F /* FAQuestions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AD567B2148DC38500FFCA7F /* FAQuestions.plist */; };
+		1AD6D07E145F823100DCD556 /* CodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6D07C145F823100DCD556 /* CodeViewController.m */; };
+		1AD6D07F145F823100DCD556 /* CodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD6D07D145F823100DCD556 /* CodeViewController.xib */; };
+		1AD6D084145F83A400DCD556 /* PhilosophyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6D082145F83A400DCD556 /* PhilosophyViewController.m */; };
+		1AD6D085145F83A400DCD556 /* PhilosophyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD6D083145F83A400DCD556 /* PhilosophyViewController.xib */; };
+		1D3623260D0F684500981E51 /* TutorMeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TutorMeAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28C286E10D94DF7D0034E888 /* TutorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* TutorViewController.m */; };
+		53B50ADA11A58B200015105A /* TutorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53B50AD411A58B200015105A /* TutorCell.xib */; };
+		53B50ADB11A58B200015105A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53B50AD611A58B200015105A /* MainWindow.xib */; };
+		53B50ADC11A58B200015105A /* TutorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53B50AD811A58B200015105A /* TutorViewController.xib */; };
+		969234680FBCCE850009907C /* ApplicationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 969234670FBCCE850009907C /* ApplicationCell.m */; };
+		969234720FBCD3680009907C /* TutorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 969234710FBCD3680009907C /* TutorCell.m */; };
+		969234870FBD35720009907C /* RatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 969234860FBD35720009907C /* RatingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1811EDF611D015E20068DA4C /* DarkBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DarkBackground.png; path = images/DarkBackground.png; sourceTree = "<group>"; };
+		1811EE0011D015E20068DA4C /* LightBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LightBackground.png; path = images/LightBackground.png; sourceTree = "<group>"; };
+		1811EE0211D015E20068DA4C /* StarsBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StarsBackground.png; path = images/StarsBackground.png; sourceTree = "<group>"; };
+		1811EE0311D015E20068DA4C /* StarsForeground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StarsForeground.png; path = images/StarsForeground.png; sourceTree = "<group>"; };
+		1A0551D11462985D0055C91A /* TutorEditProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorEditProfile.h; sourceTree = "<group>"; };
+		1A0551D21462985D0055C91A /* TutorEditProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorEditProfile.m; sourceTree = "<group>"; };
+		1A0551D31462985D0055C91A /* TutorEditProfile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TutorEditProfile.xib; sourceTree = "<group>"; };
+		1A1011CE144406EF00776DC5 /* 19-gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "19-gear.png"; path = "images/TabBarIcons/19-gear.png"; sourceTree = "<group>"; };
+		1A1011CF144406EF00776DC5 /* 19-gear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "19-gear@2x.png"; path = "images/TabBarIcons/19-gear@2x.png"; sourceTree = "<group>"; };
+		1A1011D0144406EF00776DC5 /* 83-calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "83-calendar.png"; path = "images/TabBarIcons/83-calendar.png"; sourceTree = "<group>"; };
+		1A1011D1144406EF00776DC5 /* 83-calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "83-calendar@2x.png"; path = "images/TabBarIcons/83-calendar@2x.png"; sourceTree = "<group>"; };
+		1A1011D2144406EF00776DC5 /* 96-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "96-book.png"; path = "images/TabBarIcons/96-book.png"; sourceTree = "<group>"; };
+		1A1011D3144406EF00776DC5 /* 96-book@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "96-book@2x.png"; path = "images/TabBarIcons/96-book@2x.png"; sourceTree = "<group>"; };
+		1A1011D4144406EF00776DC5 /* 112-group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "112-group.png"; path = "images/TabBarIcons/112-group.png"; sourceTree = "<group>"; };
+		1A1011D5144406EF00776DC5 /* 112-group@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "112-group@2x.png"; path = "images/TabBarIcons/112-group@2x.png"; sourceTree = "<group>"; };
+		1A1011E0144412AD00776DC5 /* TutorData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TutorData.plist; sourceTree = "<group>"; };
+		1A1011EA14441ECA00776DC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/StudyCell.xib; sourceTree = "<group>"; };
+		1A1011EC14441F0A00776DC5 /* StudyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StudyViewController.h; path = Classes/StudyViewController.h; sourceTree = "<group>"; };
+		1A1011ED14441F0A00776DC5 /* StudyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StudyViewController.m; path = Classes/StudyViewController.m; sourceTree = "<group>"; };
+		1A1011F114441F5C00776DC5 /* StudyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudyViewController.xib; sourceTree = "<group>"; };
+		1A1011F41444216800776DC5 /* StudyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StudyCell.h; path = Classes/StudyCell.h; sourceTree = "<group>"; };
+		1A1011F51444216800776DC5 /* StudyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StudyCell.m; path = Classes/StudyCell.m; sourceTree = "<group>"; };
+		1A1011F71444226400776DC5 /* ApplicationCellEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplicationCellEvent.h; path = Classes/ApplicationCellEvent.h; sourceTree = "<group>"; };
+		1A1011F81444226400776DC5 /* ApplicationCellEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplicationCellEvent.m; path = Classes/ApplicationCellEvent.m; sourceTree = "<group>"; };
+		1A1012031444280600776DC5 /* StudyData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StudyData.plist; sourceTree = "<group>"; };
+		1A244FDE14467B72001E060A /* 123-id-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "123-id-card.png"; sourceTree = "<group>"; };
+		1A244FDF14467B72001E060A /* 123-id-card@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "123-id-card@2x.png"; sourceTree = "<group>"; };
+		1A244FE2144685DE001E060A /* business.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = business.png; sourceTree = "<group>"; };
+		1A244FE3144685DE001E060A /* computer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = computer.png; sourceTree = "<group>"; };
+		1A244FE5144685DE001E060A /* science.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = science.png; sourceTree = "<group>"; };
+		1A244FEC144686B6001E060A /* math.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = math.png; sourceTree = "<group>"; };
+		1A4C376C148AD33500A4052C /* TutorSpecial.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TutorSpecial.plist; sourceTree = "<group>"; };
+		1A4C376F148AD9F700A4052C /* StudySpecial.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StudySpecial.plist; sourceTree = "<group>"; };
+		1A55AB911461CE2900D4A354 /* AboutBoard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AboutBoard.png; sourceTree = "<group>"; };
+		1A55AB9A1461D84600D4A354 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		1A55AB9B1461D84600D4A354 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		1A55AB9C1461D84600D4A354 /* CalendarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarViewController.xib; sourceTree = "<group>"; };
+		1A55ABA01461D87F00D4A354 /* ApplicationCellCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationCellCalendar.h; sourceTree = "<group>"; };
+		1A55ABA11461D87F00D4A354 /* ApplicationCellCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationCellCalendar.m; sourceTree = "<group>"; };
+		1A55ABA31461D8BA00D4A354 /* CalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarCell.h; sourceTree = "<group>"; };
+		1A55ABA41461D8BA00D4A354 /* CalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarCell.m; sourceTree = "<group>"; };
+		1A55ABA61461DA5500D4A354 /* CalendarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarCell.xib; sourceTree = "<group>"; };
+		1A55ABA81461E02400D4A354 /* CalendarFall.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CalendarFall.plist; sourceTree = "<group>"; };
+		1A55ABAA1461E52300D4A354 /* CalendarSpring.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CalendarSpring.plist; sourceTree = "<group>"; };
+		1A750F8214451FB40033B166 /* theatre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theatre.png; sourceTree = "<group>"; };
+		1A750F8314451FB40033B166 /* Music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Music.png; sourceTree = "<group>"; };
+		1A7C9046146098B000D48CDE /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		1A7C9047146098B000D48CDE /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		1A7C9048146098B000D48CDE /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		1A7DF1E314449D95006F130A /* AcademicInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AcademicInfoViewController.h; path = Classes/AcademicInfoViewController.h; sourceTree = "<group>"; };
+		1A7DF1E414449D95006F130A /* AcademicInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AcademicInfoViewController.m; path = Classes/AcademicInfoViewController.m; sourceTree = "<group>"; };
+		1A7DF1E514449D95006F130A /* AcademicInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AcademicInfoViewController.xib; path = Classes/AcademicInfoViewController.xib; sourceTree = "<group>"; };
+		1ABE6E35148C5F6C00FE919A /* TrinityRestQueryGuts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrinityRestQueryGuts.h; sourceTree = "<group>"; };
+		1ABE6E36148C5F6C00FE919A /* TrinityRestQueryGuts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrinityRestQueryGuts.m; sourceTree = "<group>"; };
+		1AC1778E146229DA00469086 /* TutorCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorCategoryViewController.h; sourceTree = "<group>"; };
+		1AC1778F146229DA00469086 /* TutorCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorCategoryViewController.m; sourceTree = "<group>"; };
+		1AC17790146229DA00469086 /* TutorCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TutorCategoryViewController.xib; sourceTree = "<group>"; };
+		1AC1779414622B1300469086 /* TutorMajors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TutorMajors.plist; sourceTree = "<group>"; };
+		1AC1779D146265A500469086 /* StudyDataAttending.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StudyDataAttending.plist; sourceTree = "<group>"; };
+		1AC1779E146265A500469086 /* StudyDataOrganized.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StudyDataOrganized.plist; sourceTree = "<group>"; };
+		1AC177A1146267E200469086 /* StudyCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyCategoryViewController.h; sourceTree = "<group>"; };
+		1AC177A2146267E300469086 /* StudyCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyCategoryViewController.m; sourceTree = "<group>"; };
+		1AC177A3146267E300469086 /* StudyCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudyCategoryViewController.xib; sourceTree = "<group>"; };
+		1AC177AA146270F300469086 /* AddStudyEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddStudyEvent.h; sourceTree = "<group>"; };
+		1AC177AB146270F300469086 /* AddStudyEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddStudyEvent.m; sourceTree = "<group>"; };
+		1AC177AC146270F300469086 /* AddStudyEvent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddStudyEvent.xib; sourceTree = "<group>"; };
+		1AC466FB14469AF700196E60 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		1AC466FC14469AF700196E60 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		1AC466FD14469AF700196E60 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		1AC466FE14469AF700196E60 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		1AC466FF14469AF700196E60 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1AC4670014469AF700196E60 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		1AC502D81461C4310000F46D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1AC7F2F014442C9700BC0467 /* CalendarBlank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CalendarBlank.png; path = images/CalendarBlank.png; sourceTree = "<group>"; };
+		1ACCE1CB1444E11100C4A3D8 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		1ACCE1CC1444E11100C4A3D8 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		1ACCE1CD1444E11100C4A3D8 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		1ACCE1D41444E40F00C4A3D8 /* TutorDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorDetailViewController.h; sourceTree = "<group>"; };
+		1ACCE1D51444E40F00C4A3D8 /* TutorDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorDetailViewController.m; sourceTree = "<group>"; };
+		1ACCE1D61444E40F00C4A3D8 /* TutorDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TutorDetailViewController.xib; sourceTree = "<group>"; };
+		1ACCE1E61444F5E200C4A3D8 /* CalendarMay7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarMay7.png; sourceTree = "<group>"; };
+		1ACCE1E71444F5E200C4A3D8 /* CalendarAugust29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarAugust29.png; sourceTree = "<group>"; };
+		1ACCE1E81444F5E200C4A3D8 /* CalendarOctober13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarOctober13.png; sourceTree = "<group>"; };
+		1ACCE1EC1444F8CA00C4A3D8 /* CalendarJuly28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarJuly28.png; sourceTree = "<group>"; };
+		1ACCE1ED1444F8CA00C4A3D8 /* CalendarDecember25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarDecember25.png; sourceTree = "<group>"; };
+		1ACCE1EE1444F8CA00C4A3D8 /* CalendarNovember17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarNovember17.png; sourceTree = "<group>"; };
+		1ACCE1F21444FA0700C4A3D8 /* StudyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StudyDetailViewController.h; path = Classes/StudyDetailViewController.h; sourceTree = "<group>"; };
+		1ACCE1F31444FA0700C4A3D8 /* StudyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StudyDetailViewController.m; path = Classes/StudyDetailViewController.m; sourceTree = "<group>"; };
+		1ACCE1F41444FA0700C4A3D8 /* StudyDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StudyDetailViewController.xib; path = Classes/StudyDetailViewController.xib; sourceTree = "<group>"; };
+		1AD567A4148DB80800FFCA7F /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		1AD567A5148DB80800FFCA7F /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		1AD567A8148DBB3C00FFCA7F /* FAQTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAQTest.h; sourceTree = "<group>"; };
+		1AD567A9148DBB3C00FFCA7F /* FAQTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAQTest.m; sourceTree = "<group>"; };
+		1AD567AA148DBB3C00FFCA7F /* FAQTest.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAQTest.xib; sourceTree = "<group>"; };
+		1AD567AD148DC28C00FFCA7F /* FAQAnswers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAQAnswers.h; sourceTree = "<group>"; };
+		1AD567AE148DC28C00FFCA7F /* FAQAnswers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAQAnswers.m; sourceTree = "<group>"; };
+		1AD567AF148DC28C00FFCA7F /* FAQAnswers.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAQAnswers.xib; sourceTree = "<group>"; };
+		1AD567B2148DC38500FFCA7F /* FAQuestions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FAQuestions.plist; sourceTree = "<group>"; };
+		1AD6D07B145F823100DCD556 /* CodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViewController.h; sourceTree = "<group>"; };
+		1AD6D07C145F823100DCD556 /* CodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViewController.m; sourceTree = "<group>"; };
+		1AD6D07D145F823100DCD556 /* CodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CodeViewController.xib; sourceTree = "<group>"; };
+		1AD6D081145F83A400DCD556 /* PhilosophyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhilosophyViewController.h; sourceTree = "<group>"; };
+		1AD6D082145F83A400DCD556 /* PhilosophyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhilosophyViewController.m; sourceTree = "<group>"; };
+		1AD6D083145F83A400DCD556 /* PhilosophyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhilosophyViewController.xib; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TutorMeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorMeAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TutorMeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorMeAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* TutorMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutorMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2812E2171036105C0074E44A /* TutorMe_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorMe_Prefix.pch; sourceTree = "<group>"; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28C286DF0D94DF7D0034E888 /* TutorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = TutorViewController.h; path = Classes/TutorViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		28C286E00D94DF7D0034E888 /* TutorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = TutorViewController.m; path = Classes/TutorViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53B50AD511A58B200015105A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TutorCell.xib; sourceTree = "<group>"; };
+		53B50AD711A58B200015105A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		53B50AD911A58B200015105A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TutorViewController.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* TutorMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TutorMe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		969234660FBCCE850009907C /* ApplicationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationCell.h; sourceTree = "<group>"; };
+		969234670FBCCE850009907C /* ApplicationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationCell.m; sourceTree = "<group>"; };
+		969234700FBCD3680009907C /* TutorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TutorCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		969234710FBCD3680009907C /* TutorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TutorCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		969234850FBD35720009907C /* RatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatingView.h; sourceTree = "<group>"; };
+		969234860FBD35720009907C /* RatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC502D91461C4310000F46D /* MessageUI.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1AD567A4148DB80800FFCA7F /* TPKeyboardAvoidingScrollView.h */,
+				1AD567A5148DB80800FFCA7F /* TPKeyboardAvoidingScrollView.m */,
+				1D3623240D0F684500981E51 /* TutorMeAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TutorMeAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* TutorMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A1011CC144406D700776DC5 /* TabBarIcons */ = {
+			isa = PBXGroup;
+			children = (
+				1A244FDE14467B72001E060A /* 123-id-card.png */,
+				1A244FDF14467B72001E060A /* 123-id-card@2x.png */,
+				1A1011CE144406EF00776DC5 /* 19-gear.png */,
+				1A1011CF144406EF00776DC5 /* 19-gear@2x.png */,
+				1A1011D0144406EF00776DC5 /* 83-calendar.png */,
+				1A1011D1144406EF00776DC5 /* 83-calendar@2x.png */,
+				1A1011D2144406EF00776DC5 /* 96-book.png */,
+				1A1011D3144406EF00776DC5 /* 96-book@2x.png */,
+				1A1011D4144406EF00776DC5 /* 112-group.png */,
+				1A1011D5144406EF00776DC5 /* 112-group@2x.png */,
+			);
+			name = TabBarIcons;
+			sourceTree = "<group>";
+		};
+		1A1011E214441C3600776DC5 /* Tutor */ = {
+			isa = PBXGroup;
+			children = (
+				96B2D92C0FD9E6C800AD6042 /* Individual Subviews */,
+				28C286DF0D94DF7D0034E888 /* TutorViewController.h */,
+				28C286E00D94DF7D0034E888 /* TutorViewController.m */,
+				53B50AD811A58B200015105A /* TutorViewController.xib */,
+				53B50AD411A58B200015105A /* TutorCell.xib */,
+				1ACCE1D41444E40F00C4A3D8 /* TutorDetailViewController.h */,
+				1ACCE1D51444E40F00C4A3D8 /* TutorDetailViewController.m */,
+				1ACCE1D61444E40F00C4A3D8 /* TutorDetailViewController.xib */,
+				1AC1778E146229DA00469086 /* TutorCategoryViewController.h */,
+				1AC1778F146229DA00469086 /* TutorCategoryViewController.m */,
+				1AC17790146229DA00469086 /* TutorCategoryViewController.xib */,
+				1A0551D11462985D0055C91A /* TutorEditProfile.h */,
+				1A0551D21462985D0055C91A /* TutorEditProfile.m */,
+				1A0551D31462985D0055C91A /* TutorEditProfile.xib */,
+			);
+			name = Tutor;
+			sourceTree = "<group>";
+		};
+		1A1011E314441CAF00776DC5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1A55AB911461CE2900D4A354 /* AboutBoard.png */,
+				1A750F8114451F970033B166 /* Subjects */,
+				1A750F7F14451F870033B166 /* Calendar */,
+				1811EDF611D015E20068DA4C /* DarkBackground.png */,
+				1811EE0011D015E20068DA4C /* LightBackground.png */,
+				1811EE0211D015E20068DA4C /* StarsBackground.png */,
+				1811EE0311D015E20068DA4C /* StarsForeground.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		1A1011E614441D0800776DC5 /* Study Events */ = {
+			isa = PBXGroup;
+			children = (
+				1A1011F31444212A00776DC5 /* Individual Subviews */,
+				1A1011EC14441F0A00776DC5 /* StudyViewController.h */,
+				1A1011ED14441F0A00776DC5 /* StudyViewController.m */,
+				1A1011F114441F5C00776DC5 /* StudyViewController.xib */,
+				1A1011E914441ECA00776DC5 /* StudyCell.xib */,
+				1ACCE1F21444FA0700C4A3D8 /* StudyDetailViewController.h */,
+				1ACCE1F31444FA0700C4A3D8 /* StudyDetailViewController.m */,
+				1ACCE1F41444FA0700C4A3D8 /* StudyDetailViewController.xib */,
+				1AC177A1146267E200469086 /* StudyCategoryViewController.h */,
+				1AC177A2146267E300469086 /* StudyCategoryViewController.m */,
+				1AC177A3146267E300469086 /* StudyCategoryViewController.xib */,
+				1AC177AA146270F300469086 /* AddStudyEvent.h */,
+				1AC177AB146270F300469086 /* AddStudyEvent.m */,
+				1AC177AC146270F300469086 /* AddStudyEvent.xib */,
+			);
+			name = "Study Events";
+			sourceTree = "<group>";
+		};
+		1A1011F31444212A00776DC5 /* Individual Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				1A1011F71444226400776DC5 /* ApplicationCellEvent.h */,
+				1A1011F81444226400776DC5 /* ApplicationCellEvent.m */,
+				1A1011F41444216800776DC5 /* StudyCell.h */,
+				1A1011F51444216800776DC5 /* StudyCell.m */,
+			);
+			name = "Individual Subviews";
+			sourceTree = "<group>";
+		};
+		1A55AB9F1461D84B00D4A354 /* Individual Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				1A55ABA01461D87F00D4A354 /* ApplicationCellCalendar.h */,
+				1A55ABA11461D87F00D4A354 /* ApplicationCellCalendar.m */,
+				1A55ABA31461D8BA00D4A354 /* CalendarCell.h */,
+				1A55ABA41461D8BA00D4A354 /* CalendarCell.m */,
+			);
+			name = "Individual Subviews";
+			sourceTree = "<group>";
+		};
+		1A6EE3DA1458F08D00C26462 /* Academic Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				1A55AB9F1461D84B00D4A354 /* Individual Subviews */,
+				1A55AB9A1461D84600D4A354 /* CalendarViewController.h */,
+				1A55AB9B1461D84600D4A354 /* CalendarViewController.m */,
+				1A55AB9C1461D84600D4A354 /* CalendarViewController.xib */,
+				1A55ABA61461DA5500D4A354 /* CalendarCell.xib */,
+			);
+			name = "Academic Calendar";
+			sourceTree = "<group>";
+		};
+		1A6EE3DD1458FBEA00C26462 /* Honor Code */ = {
+			isa = PBXGroup;
+			children = (
+				1AD6D07B145F823100DCD556 /* CodeViewController.h */,
+				1AD6D07C145F823100DCD556 /* CodeViewController.m */,
+				1AD6D07D145F823100DCD556 /* CodeViewController.xib */,
+				1AD6D081145F83A400DCD556 /* PhilosophyViewController.h */,
+				1AD6D082145F83A400DCD556 /* PhilosophyViewController.m */,
+				1AD6D083145F83A400DCD556 /* PhilosophyViewController.xib */,
+				1AD567A8148DBB3C00FFCA7F /* FAQTest.h */,
+				1AD567A9148DBB3C00FFCA7F /* FAQTest.m */,
+				1AD567AA148DBB3C00FFCA7F /* FAQTest.xib */,
+				1AD567AD148DC28C00FFCA7F /* FAQAnswers.h */,
+				1AD567AE148DC28C00FFCA7F /* FAQAnswers.m */,
+				1AD567AF148DC28C00FFCA7F /* FAQAnswers.xib */,
+			);
+			name = "Honor Code";
+			sourceTree = "<group>";
+		};
+		1A750F7F14451F870033B166 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				1AC7F2F014442C9700BC0467 /* CalendarBlank.png */,
+				1ACCE1EC1444F8CA00C4A3D8 /* CalendarJuly28.png */,
+				1ACCE1ED1444F8CA00C4A3D8 /* CalendarDecember25.png */,
+				1ACCE1EE1444F8CA00C4A3D8 /* CalendarNovember17.png */,
+				1ACCE1E61444F5E200C4A3D8 /* CalendarMay7.png */,
+				1ACCE1E71444F5E200C4A3D8 /* CalendarAugust29.png */,
+				1ACCE1E81444F5E200C4A3D8 /* CalendarOctober13.png */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+		1A750F8114451F970033B166 /* Subjects */ = {
+			isa = PBXGroup;
+			children = (
+				1A244FEC144686B6001E060A /* math.png */,
+				1A244FE2144685DE001E060A /* business.png */,
+				1A244FE3144685DE001E060A /* computer.png */,
+				1A750F8314451FB40033B166 /* Music.png */,
+				1A244FE5144685DE001E060A /* science.png */,
+				1A750F8214451FB40033B166 /* theatre.png */,
+			);
+			name = Subjects;
+			sourceTree = "<group>";
+		};
+		1A7DF1E214449D13006F130A /* Academic Info */ = {
+			isa = PBXGroup;
+			children = (
+				1A7DF1E314449D95006F130A /* AcademicInfoViewController.h */,
+				1A7DF1E414449D95006F130A /* AcademicInfoViewController.m */,
+				1A7DF1E514449D95006F130A /* AcademicInfoViewController.xib */,
+			);
+			name = "Academic Info";
+			sourceTree = "<group>";
+		};
+		1ABE6E34148C5F4300FE919A /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE6E35148C5F6C00FE919A /* TrinityRestQueryGuts.h */,
+				1ABE6E36148C5F6C00FE919A /* TrinityRestQueryGuts.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		1AC466FA14469AE600196E60 /* Icon FIles */ = {
+			isa = PBXGroup;
+			children = (
+				1AC466FB14469AF700196E60 /* Icon-72.png */,
+				1AC466FC14469AF700196E60 /* Icon-Small-50.png */,
+				1AC466FD14469AF700196E60 /* Icon-Small.png */,
+				1AC466FE14469AF700196E60 /* Icon-Small@2x.png */,
+				1AC466FF14469AF700196E60 /* Icon.png */,
+				1AC4670014469AF700196E60 /* Icon@2x.png */,
+			);
+			name = "Icon FIles";
+			sourceTree = "<group>";
+		};
+		1ACCE1C91444E0D400C4A3D8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1ACCE1CB1444E11100C4A3D8 /* SettingsViewController.h */,
+				1ACCE1CC1444E11100C4A3D8 /* SettingsViewController.m */,
+				1ACCE1CD1444E11100C4A3D8 /* SettingsViewController.xib */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE6E34148C5F4300FE919A /* Database */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				1A1011E214441C3600776DC5 /* Tutor */,
+				1A1011E614441D0800776DC5 /* Study Events */,
+				1A6EE3DA1458F08D00C26462 /* Academic Calendar */,
+				1A7DF1E214449D13006F130A /* Academic Info */,
+				1A6EE3DD1458FBEA00C26462 /* Honor Code */,
+				1ACCE1C91444E0D400C4A3D8 /* Settings */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2812E2171036105C0074E44A /* TutorMe_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				1A7C9046146098B000D48CDE /* AboutViewController.h */,
+				1A7C9047146098B000D48CDE /* AboutViewController.m */,
+				1A7C9048146098B000D48CDE /* AboutViewController.xib */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AC466FA14469AE600196E60 /* Icon FIles */,
+				1A1011E314441CAF00776DC5 /* Images */,
+				1A1011CC144406D700776DC5 /* TabBarIcons */,
+				53B50AD611A58B200015105A /* MainWindow.xib */,
+				1AD567B2148DC38500FFCA7F /* FAQuestions.plist */,
+				8D1107310486CEB800E47090 /* TutorMe-Info.plist */,
+				1A1011E0144412AD00776DC5 /* TutorData.plist */,
+				1AC1779414622B1300469086 /* TutorMajors.plist */,
+				1A4C376C148AD33500A4052C /* TutorSpecial.plist */,
+				1A1012031444280600776DC5 /* StudyData.plist */,
+				1A4C376F148AD9F700A4052C /* StudySpecial.plist */,
+				1AC1779D146265A500469086 /* StudyDataAttending.plist */,
+				1AC1779E146265A500469086 /* StudyDataOrganized.plist */,
+				1A55ABA81461E02400D4A354 /* CalendarFall.plist */,
+				1A55ABAA1461E52300D4A354 /* CalendarSpring.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AC502D81461C4310000F46D /* MessageUI.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96B2D92C0FD9E6C800AD6042 /* Individual Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				969234660FBCCE850009907C /* ApplicationCell.h */,
+				969234670FBCCE850009907C /* ApplicationCell.m */,
+				969234700FBCD3680009907C /* TutorCell.h */,
+				969234710FBCD3680009907C /* TutorCell.m */,
+				969234850FBD35720009907C /* RatingView.h */,
+				969234860FBD35720009907C /* RatingView.m */,
+			);
+			name = "Individual Subviews";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* TutorMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TutorMe" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TutorMe;
+			productName = AdvancedTableViewCells;
+			productReference = 1D6058910D05DD3D006BFB54 /* TutorMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TutorMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* TutorMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B50ADA11A58B200015105A /* TutorCell.xib in Resources */,
+				53B50ADB11A58B200015105A /* MainWindow.xib in Resources */,
+				53B50ADC11A58B200015105A /* TutorViewController.xib in Resources */,
+				1811EE0711D015E20068DA4C /* DarkBackground.png in Resources */,
+				1811EE1111D015E20068DA4C /* LightBackground.png in Resources */,
+				1811EE1311D015E20068DA4C /* StarsBackground.png in Resources */,
+				1811EE1411D015E20068DA4C /* StarsForeground.png in Resources */,
+				1A1011D6144406EF00776DC5 /* 19-gear.png in Resources */,
+				1A1011D7144406EF00776DC5 /* 19-gear@2x.png in Resources */,
+				1A1011D8144406EF00776DC5 /* 83-calendar.png in Resources */,
+				1A1011D9144406EF00776DC5 /* 83-calendar@2x.png in Resources */,
+				1A1011DA144406EF00776DC5 /* 96-book.png in Resources */,
+				1A1011DB144406EF00776DC5 /* 96-book@2x.png in Resources */,
+				1A1011DC144406EF00776DC5 /* 112-group.png in Resources */,
+				1A1011DD144406EF00776DC5 /* 112-group@2x.png in Resources */,
+				1A1011E1144412AD00776DC5 /* TutorData.plist in Resources */,
+				1A1011EB14441ECA00776DC5 /* StudyCell.xib in Resources */,
+				1A1011F214441F5C00776DC5 /* StudyViewController.xib in Resources */,
+				1A1012041444280600776DC5 /* StudyData.plist in Resources */,
+				1AC7F2F214442C9700BC0467 /* CalendarBlank.png in Resources */,
+				1A7DF1E714449D95006F130A /* AcademicInfoViewController.xib in Resources */,
+				1ACCE1CF1444E11100C4A3D8 /* SettingsViewController.xib in Resources */,
+				1ACCE1D81444E40F00C4A3D8 /* TutorDetailViewController.xib in Resources */,
+				1ACCE1E91444F5E200C4A3D8 /* CalendarMay7.png in Resources */,
+				1ACCE1EA1444F5E200C4A3D8 /* CalendarAugust29.png in Resources */,
+				1ACCE1EB1444F5E200C4A3D8 /* CalendarOctober13.png in Resources */,
+				1ACCE1EF1444F8CA00C4A3D8 /* CalendarJuly28.png in Resources */,
+				1ACCE1F01444F8CA00C4A3D8 /* CalendarDecember25.png in Resources */,
+				1ACCE1F11444F8CA00C4A3D8 /* CalendarNovember17.png in Resources */,
+				1ACCE1F61444FA0700C4A3D8 /* StudyDetailViewController.xib in Resources */,
+				1A750F8414451FB40033B166 /* theatre.png in Resources */,
+				1A750F8514451FB40033B166 /* Music.png in Resources */,
+				1A244FE014467B72001E060A /* 123-id-card.png in Resources */,
+				1A244FE114467B72001E060A /* 123-id-card@2x.png in Resources */,
+				1A244FE6144685DE001E060A /* business.png in Resources */,
+				1A244FE7144685DE001E060A /* computer.png in Resources */,
+				1A244FE9144685DE001E060A /* science.png in Resources */,
+				1A244FED144686B6001E060A /* math.png in Resources */,
+				1AC4670114469AF700196E60 /* Icon-72.png in Resources */,
+				1AC4670214469AF700196E60 /* Icon-Small-50.png in Resources */,
+				1AC4670314469AF700196E60 /* Icon-Small.png in Resources */,
+				1AC4670414469AF700196E60 /* Icon-Small@2x.png in Resources */,
+				1AC4670514469AF700196E60 /* Icon.png in Resources */,
+				1AC4670614469AF700196E60 /* Icon@2x.png in Resources */,
+				1AD6D07F145F823100DCD556 /* CodeViewController.xib in Resources */,
+				1AD6D085145F83A400DCD556 /* PhilosophyViewController.xib in Resources */,
+				1A7C904A146098B000D48CDE /* AboutViewController.xib in Resources */,
+				1A55AB921461CE2900D4A354 /* AboutBoard.png in Resources */,
+				1A55AB9E1461D84600D4A354 /* CalendarViewController.xib in Resources */,
+				1A55ABA71461DA5500D4A354 /* CalendarCell.xib in Resources */,
+				1A55ABA91461E02400D4A354 /* CalendarFall.plist in Resources */,
+				1A55ABAB1461E52300D4A354 /* CalendarSpring.plist in Resources */,
+				1AC17792146229DA00469086 /* TutorCategoryViewController.xib in Resources */,
+				1AC1779514622B1400469086 /* TutorMajors.plist in Resources */,
+				1AC1779F146265A500469086 /* StudyDataAttending.plist in Resources */,
+				1AC177A0146265A500469086 /* StudyDataOrganized.plist in Resources */,
+				1AC177A5146267E300469086 /* StudyCategoryViewController.xib in Resources */,
+				1AC177AE146270F300469086 /* AddStudyEvent.xib in Resources */,
+				1A0551D51462985D0055C91A /* TutorEditProfile.xib in Resources */,
+				1A4C376D148AD33500A4052C /* TutorSpecial.plist in Resources */,
+				1A4C3770148AD9F700A4052C /* StudySpecial.plist in Resources */,
+				1AD567AC148DBB3C00FFCA7F /* FAQTest.xib in Resources */,
+				1AD567B1148DC28C00FFCA7F /* FAQAnswers.xib in Resources */,
+				1AD567B3148DC38500FFCA7F /* FAQuestions.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* TutorMeAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* TutorViewController.m in Sources */,
+				969234680FBCCE850009907C /* ApplicationCell.m in Sources */,
+				969234720FBCD3680009907C /* TutorCell.m in Sources */,
+				969234870FBD35720009907C /* RatingView.m in Sources */,
+				1A1011EF14441F0A00776DC5 /* StudyViewController.m in Sources */,
+				1A1011F61444216800776DC5 /* StudyCell.m in Sources */,
+				1A1011F91444226400776DC5 /* ApplicationCellEvent.m in Sources */,
+				1A7DF1E614449D95006F130A /* AcademicInfoViewController.m in Sources */,
+				1ACCE1CE1444E11100C4A3D8 /* SettingsViewController.m in Sources */,
+				1ACCE1D71444E40F00C4A3D8 /* TutorDetailViewController.m in Sources */,
+				1ACCE1F51444FA0700C4A3D8 /* StudyDetailViewController.m in Sources */,
+				1AD6D07E145F823100DCD556 /* CodeViewController.m in Sources */,
+				1AD6D084145F83A400DCD556 /* PhilosophyViewController.m in Sources */,
+				1A7C9049146098B000D48CDE /* AboutViewController.m in Sources */,
+				1A55AB9D1461D84600D4A354 /* CalendarViewController.m in Sources */,
+				1A55ABA21461D87F00D4A354 /* ApplicationCellCalendar.m in Sources */,
+				1A55ABA51461D8BA00D4A354 /* CalendarCell.m in Sources */,
+				1AC17791146229DA00469086 /* TutorCategoryViewController.m in Sources */,
+				1AC177A4146267E300469086 /* StudyCategoryViewController.m in Sources */,
+				1AC177AD146270F300469086 /* AddStudyEvent.m in Sources */,
+				1A0551D41462985D0055C91A /* TutorEditProfile.m in Sources */,
+				1ABE6E39148C5F6C00FE919A /* TrinityRestQueryGuts.m in Sources */,
+				1AD567A6148DB80800FFCA7F /* TPKeyboardAvoidingScrollView.m in Sources */,
+				1AD567AB148DBB3C00FFCA7F /* FAQTest.m in Sources */,
+				1AD567B0148DC28C00FFCA7F /* FAQAnswers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A1011E914441ECA00776DC5 /* StudyCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A1011EA14441ECA00776DC5 /* en */,
+			);
+			name = StudyCell.xib;
+			sourceTree = "<group>";
+		};
+		53B50AD411A58B200015105A /* TutorCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B50AD511A58B200015105A /* en */,
+			);
+			name = TutorCell.xib;
+			sourceTree = "<group>";
+		};
+		53B50AD611A58B200015105A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B50AD711A58B200015105A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		53B50AD811A58B200015105A /* TutorViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B50AD911A58B200015105A /* en */,
+			);
+			name = TutorViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: James Seales (5HRR6EUL37)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TutorMe_Prefix.pch;
+				INFOPLIST_FILE = "TutorMe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = TutorMe;
+				PROVISIONING_PROFILE = "3DDBB4DF-2BDE-4ACA-88E3-18C0B6D1A621";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: James Seales (5HRR6EUL37)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TutorMe_Prefix.pch;
+				INFOPLIST_FILE = "TutorMe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = TutorMe;
+				PROVISIONING_PROFILE = "3DDBB4DF-2BDE-4ACA-88E3-18C0B6D1A621";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: James Seales (5HRR6EUL37)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: James Seales (5HRR6EUL37)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "47354703-D443-431D-BCA6-F5BB712CB418";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "47354703-D443-431D-BCA6-F5BB712CB418";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: James Seales (5HRR6EUL37)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: James Seales (5HRR6EUL37)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PROVISIONING_PROFILE = "47354703-D443-431D-BCA6-F5BB712CB418";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "47354703-D443-431D-BCA6-F5BB712CB418";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TutorMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TutorMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="5dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dip">
+	    <ImageView
+	        android:id="@+id/iconCalendar"
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:src="@drawable/icon" />
+	    <TextView
+		    android:id="@+id/iconMonth"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/iconCalendar"
+		    android:layout_alignTop="@+id/iconCalendar"
+		    android:layout_alignRight="@+id/iconCalendar"
+		    android:layout_alignBottom="@+id/iconCalendar"
+		    android:layout_marginTop="13dp"
+		    android:gravity="center_horizontal"
+		    android:textSize="10dp"
+		    android:textStyle="bold"
+		    android:textColor="#FFFFFF" />
+	    <TextView
+		    android:id="@+id/iconDate"
+		    android:layout_width="@+id/iconCalendar"
+		    android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/iconCalendar"
+		    android:layout_alignTop="@+id/iconCalendar"
+		    android:layout_alignRight="@+id/iconCalendar"
+		    android:layout_alignBottom="@+id/iconCalendar"
+		    android:gravity="center_horizontal"
+		    android:layout_marginTop="22dp"
+		    android:textSize="24dp"
+		    android:textStyle="bold"
+		    android:textColor="#000000" />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/studyRow_classSubject"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:gravity="center_vertical"
+            android:singleLine="true"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/studyRow_className"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:singleLine="true"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/studyRow_organizer"
+            android:textSize="15dp"
+            android:singleLine="true"/>
+    </LinearLayout>
+</LinearLayout>

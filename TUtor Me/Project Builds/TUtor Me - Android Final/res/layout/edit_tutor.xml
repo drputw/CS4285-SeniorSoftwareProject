@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TextView
+		android:background="#000000"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/tvName"
+		android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:paddingTop="50dp"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:padding="5dp"
+			android:layout_height="wrap_content" 
+			android:textSize="15dp" >
+		    
+			<TextView android:layout_height="wrap_content" android:text="Email"
+				android:id="@+id/tvEmailLabel" android:textStyle="bold"
+				android:layout_width="wrap_content"
+				android:layout_marginBottom="5dp"></TextView>
+
+			<TextView android:id="@+id/tvEmail" android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:layout_marginLeft="20dp"
+				android:layout_marginBottom="15dp" />
+
+			<TextView android:layout_height="wrap_content" android:text="Rank"
+				android:id="@+id/tvRankLabel" android:textStyle="bold"
+				android:layout_width="wrap_content"
+				android:layout_marginBottom="5dp"></TextView>
+
+			<Spinner android:layout_height="wrap_content"
+				android:id="@+id/spinnerRank"
+				android:layout_width="match_parent" android:layout_marginBottom="15dp" />
+
+			<TextView android:layout_height="wrap_content" android:text="Major(s) &amp; Minor(s)"
+				android:id="@+id/tvSubjectLabel" android:textStyle="bold"
+				android:layout_width="wrap_content"
+				android:layout_marginBottom="5dp"></TextView>
+
+			<Spinner android:layout_width="match_parent" android:id="@+id/tutor_major"
+				android:layout_height="wrap_content" />
+			<Spinner android:layout_width="match_parent" android:id="@+id/tutor_major2"
+				android:layout_height="wrap_content" />
+			<Spinner android:layout_width="match_parent" android:id="@+id/tutor_major3"
+				android:layout_height="wrap_content" />
+			<Spinner android:layout_width="match_parent" android:id="@+id/tutor_major4"
+				android:layout_height="wrap_content" android:layout_marginBottom="15dp"/>
+
+			<TextView android:layout_height="wrap_content"
+				android:text="General Times Available"
+				android:id="@+id/tvTimes" android:textStyle="bold"
+				android:layout_width="wrap_content"
+				android:layout_marginBottom="5dp" />
+
+			<EditText android:id="@+id/etTimes"
+				android:inputType="textMultiLine"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="15dp" android:layout_width="match_parent"
+				/>
+
+			<TextView android:layout_height="wrap_content" android:text="Phone"
+				android:id="@+id/tvPhoneLabel" android:textStyle="bold"
+				android:layout_width="wrap_content"
+				android:layout_marginBottom="5dp"></TextView>
+
+			<EditText android:id="@+id/etPhone" android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:inputType="phone"
+				android:layout_marginBottom="15dp"></EditText>
+
+			<TextView android:layout_height="wrap_content" android:text="Description"
+				android:id="@+id/tvDescriptionLabel" android:textStyle="bold"
+				android:layout_width="wrap_content"
+				android:layout_marginBottom="5dp"></TextView>
+
+			<EditText android:id="@+id/etDescription"
+				android:inputType="textMultiLine"
+				android:layout_marginBottom="15dp"
+				android:layout_height="wrap_content" android:layout_width="match_parent" />
+			
+			<LinearLayout android:id="@+id/linearLayout1"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="horizontal">
+
+				<Button android:text="Save Profile" android:id="@+id/btnSave"
+					android:layout_weight="1"
+					android:layout_width="match_parent" android:layout_height="wrap_content"></Button>
+
+				<Button android:text="Cancel" android:id="@+id/btnCancel"
+					android:layout_weight="1"
+					android:layout_width="match_parent" android:layout_height="wrap_content"></Button>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</TabHost>

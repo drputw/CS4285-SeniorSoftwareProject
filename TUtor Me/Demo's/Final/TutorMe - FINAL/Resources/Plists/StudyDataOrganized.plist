@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Class Number</key>
+		<string>CSCI 4385-1</string>
+		<key>Class Name</key>
+		<string>Senior Software I</string>
+		<key>Organizer</key>
+		<string>James Seales</string>
+		<key>Month</key>
+		<string>October</string>
+		<key>Day</key>
+		<integer>12</integer>
+		<key>Icon</key>
+		<string>CalendarOctober13.png</string>
+	</dict>
+</array>
+</plist>

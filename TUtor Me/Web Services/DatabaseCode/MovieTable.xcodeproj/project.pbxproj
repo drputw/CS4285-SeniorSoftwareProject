@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* MovieTableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MovieTableAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		8D033271130707D700C8CC6E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D033270130707D700C8CC6E /* QuartzCore.framework */; };
+		8D03342713077E3C00C8CC6E /* SelectableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03342613077E3C00C8CC6E /* SelectableButton.m */; };
+		8D03344F130782A200C8CC6E /* ToggleButtonNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D03344E130782A200C8CC6E /* ToggleButtonNormal.png */; };
+		8D0334A4130782D700C8CC6E /* ToggleButtonDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0334A3130782D700C8CC6E /* ToggleButtonDown.png */; };
+		8D0334A6130782FA00C8CC6E /* ToggleButtonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0334A5130782FA00C8CC6E /* ToggleButtonSelected.png */; };
+		8DCFA42B12FBA429007322FD /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCFA42A12FBA429007322FD /* Movie.m */; };
+		8DCFA43212FBB74C007322FD /* MovieEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCFA43112FBB74C007322FD /* MovieEditorViewController.m */; };
+		8DCFA43412FBB7A8007322FD /* MovieEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DCFA43312FBB7A8007322FD /* MovieEditorViewController.xib */; };
+		8DCFA46912FC5054007322FD /* MovieTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DCFA46812FC5054007322FD /* MovieTableCell.xib */; };
+		8DDF63B7131304F000D4DE87 /* TrinityRestQueryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF63B6131304F000D4DE87 /* TrinityRestQueryView.m */; };
+		8DE366E5131D3A9C00F11069 /* LogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE366E4131D3A9C00F11069 /* LogicTests.m */; };
+		8DE3674C131D7C7E00F11069 /* TrinityRestQueryGuts.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE3674B131D7C7E00F11069 /* TrinityRestQueryGuts.m */; };
+		8DE36774131D987000F11069 /* TrinityRestQueryGuts.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE3674B131D7C7E00F11069 /* TrinityRestQueryGuts.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MovieTableAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieTableAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MovieTableAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieTableAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* MovieTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* MovieTable_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieTable_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D033270130707D700C8CC6E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8D03342513077E3C00C8CC6E /* SelectableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectableButton.h; sourceTree = "<group>"; };
+		8D03342613077E3C00C8CC6E /* SelectableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectableButton.m; sourceTree = "<group>"; };
+		8D03344E130782A200C8CC6E /* ToggleButtonNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToggleButtonNormal.png; sourceTree = "<group>"; };
+		8D0334A3130782D700C8CC6E /* ToggleButtonDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToggleButtonDown.png; sourceTree = "<group>"; };
+		8D0334A5130782FA00C8CC6E /* ToggleButtonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToggleButtonSelected.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* MovieTable-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MovieTable-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8D8813A5144FA9B8002AE93B /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		8DCFA42912FBA429007322FD /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		8DCFA42A12FBA429007322FD /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		8DCFA43012FBB74C007322FD /* MovieEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieEditorViewController.h; sourceTree = "<group>"; };
+		8DCFA43112FBB74C007322FD /* MovieEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieEditorViewController.m; sourceTree = "<group>"; };
+		8DCFA43312FBB7A8007322FD /* MovieEditorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieEditorViewController.xib; sourceTree = "<group>"; };
+		8DCFA46812FC5054007322FD /* MovieTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableCell.xib; sourceTree = "<group>"; };
+		8DDF63B5131304F000D4DE87 /* TrinityRestQueryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrinityRestQueryView.h; sourceTree = "<group>"; };
+		8DDF63B6131304F000D4DE87 /* TrinityRestQueryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrinityRestQueryView.m; sourceTree = "<group>"; };
+		8DE366BE131D397300F11069 /* LogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE366BF131D397300F11069 /* LogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogicTests-Info.plist"; sourceTree = "<group>"; };
+		8DE366E3131D3A9C00F11069 /* LogicTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogicTests.h; sourceTree = "<group>"; };
+		8DE366E4131D3A9C00F11069 /* LogicTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogicTests.m; sourceTree = "<group>"; };
+		8DE3674A131D7C7E00F11069 /* TrinityRestQueryGuts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrinityRestQueryGuts.h; sourceTree = "<group>"; };
+		8DE3674B131D7C7E00F11069 /* TrinityRestQueryGuts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrinityRestQueryGuts.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				8D033271130707D700C8CC6E /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE366BB131D397300F11069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8DCFA43012FBB74C007322FD /* MovieEditorViewController.h */,
+				8DCFA43112FBB74C007322FD /* MovieEditorViewController.m */,
+				8DCFA42912FBA429007322FD /* Movie.h */,
+				8DCFA42A12FBA429007322FD /* Movie.m */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				1D3623240D0F684500981E51 /* MovieTableAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MovieTableAppDelegate.m */,
+				8D03342513077E3C00C8CC6E /* SelectableButton.h */,
+				8D03342613077E3C00C8CC6E /* SelectableButton.m */,
+				8DDF63B5131304F000D4DE87 /* TrinityRestQueryView.h */,
+				8DDF63B6131304F000D4DE87 /* TrinityRestQueryView.m */,
+				8DE3674A131D7C7E00F11069 /* TrinityRestQueryGuts.h */,
+				8DE3674B131D7C7E00F11069 /* TrinityRestQueryGuts.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* MovieTable.app */,
+				8DE366BE131D397300F11069 /* LogicTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				8D8813A5144FA9B8002AE93B /* Entitlements.plist */,
+				8DE366DC131D3A0900F11069 /* Tests */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				8DE366BF131D397300F11069 /* LogicTests-Info.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* MovieTable_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D0334A5130782FA00C8CC6E /* ToggleButtonSelected.png */,
+				8D03344E130782A200C8CC6E /* ToggleButtonNormal.png */,
+				8D0334A3130782D700C8CC6E /* ToggleButtonDown.png */,
+				8DCFA43312FBB7A8007322FD /* MovieEditorViewController.xib */,
+				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* MovieTable-Info.plist */,
+				8DCFA46812FC5054007322FD /* MovieTableCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				8D033270130707D700C8CC6E /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DE366DC131D3A0900F11069 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8DE366E3131D3A9C00F11069 /* LogicTests.h */,
+				8DE366E4131D3A9C00F11069 /* LogicTests.m */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* MovieTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MovieTable" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovieTable;
+			productName = MovieTable;
+			productReference = 1D6058910D05DD3D006BFB54 /* MovieTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DE366BD131D397300F11069 /* LogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DE366C2131D397300F11069 /* Build configuration list for PBXNativeTarget "LogicTests" */;
+			buildPhases = (
+				8DE366B9131D397300F11069 /* Resources */,
+				8DE366BA131D397300F11069 /* Sources */,
+				8DE366BB131D397300F11069 /* Frameworks */,
+				8DE366BC131D397300F11069 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogicTests;
+			productName = LogicTests;
+			productReference = 8DE366BE131D397300F11069 /* LogicTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MovieTable" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* MovieTable */,
+				8DE366BD131D397300F11069 /* LogicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				8DCFA43412FBB7A8007322FD /* MovieEditorViewController.xib in Resources */,
+				8DCFA46912FC5054007322FD /* MovieTableCell.xib in Resources */,
+				8D03344F130782A200C8CC6E /* ToggleButtonNormal.png in Resources */,
+				8D0334A4130782D700C8CC6E /* ToggleButtonDown.png in Resources */,
+				8D0334A6130782FA00C8CC6E /* ToggleButtonSelected.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE366B9131D397300F11069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8DE366BC131D397300F11069 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MovieTableAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				8DCFA42B12FBA429007322FD /* Movie.m in Sources */,
+				8DCFA43212FBB74C007322FD /* MovieEditorViewController.m in Sources */,
+				8D03342713077E3C00C8CC6E /* SelectableButton.m in Sources */,
+				8DDF63B7131304F000D4DE87 /* TrinityRestQueryView.m in Sources */,
+				8DE3674C131D7C7E00F11069 /* TrinityRestQueryGuts.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE366BA131D397300F11069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE366E5131D3A9C00F11069 /* LogicTests.m in Sources */,
+				8DE36774131D987000F11069 /* TrinityRestQueryGuts.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Desktop/code/xcode/tutorials/RestTable2/Entitlements.plist";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MovieTable_Prefix.pch;
+				INFOPLIST_FILE = "MovieTable-Info.plist";
+				PRODUCT_NAME = MovieTable;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Desktop/code/xcode/tutorials/RestTable2/Entitlements.plist";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MovieTable_Prefix.pch;
+				INFOPLIST_FILE = "MovieTable-Info.plist";
+				PRODUCT_NAME = MovieTable;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DE366C0131D397300F11069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "LogicTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = LogicTests;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8DE366C1131D397300F11069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INFOPLIST_FILE = "LogicTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = LogicTests;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TEST_RESULT_ERROR_BAD_TEAM=1",
+					"TEST_RESULT_ERROR_NO_SQL=2",
+					"TEST_RESULT_ERROR_TIMEOUT=3",
+					"TEST_RESULT_ERROR_AUTH=4",
+					"TEST_RESULT_ERROR_SQL=5",
+					"TEST_RESULT_SELECT_NO_ROWS=10",
+					"TEST_RESULT_SELECT_SUCCESS=11",
+					"TEST_RESULT_INSERT_NO_ID=20",
+					"TEST_RESULT_INSERT_SUCCESS=21",
+					"TEST_RESULT_UPDATE_NO_ROWS=30",
+					"TEST_RESULT_UPDATE_SUCCESS=31",
+					"TEST_RESULT_DELETE_NO_ROWS=40",
+					"TEST_RESULT_DELETE_SUCCESS=41",
+					"TEST_RESULT_ERROR_UNKNOWN_QUERY_TYPE=500",
+					"TEST_RESULT_ERROR_UNKNOWN_QUERY_STATE=501",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MovieTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DE366C2131D397300F11069 /* Build configuration list for PBXNativeTarget "LogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE366C0131D397300F11069 /* Debug */,
+				8DE366C1131D397300F11069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MovieTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

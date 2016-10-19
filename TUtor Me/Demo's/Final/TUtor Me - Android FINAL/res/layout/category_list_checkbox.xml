@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- list_item.xml -->
+<CheckBox android:text="Enabled" android:id="@+id/cbRecurring"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:paddingTop="10dip"
+	android:paddingBottom="10dip"
+	android:paddingLeft="15dip"
+	android:textAppearance="?android:attr/textAppearanceLarge"></CheckBox>

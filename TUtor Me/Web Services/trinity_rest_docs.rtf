@@ -1,0 +1,298 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;\f2\froman\fcharset0 TimesNewRomanPSMT;
+}
+{\colortbl;\red255\green255\blue255;\red63\green110\blue116;\red46\green13\blue110;\red38\green71\blue75;
+\red137\green19\blue21;\red0\green0\blue255;\red118\green15\blue80;\red92\green38\blue153;}
+{\info
+{\author Laurel}
+{\*\company Microsoft}}\margl1440\margr1440\vieww12240\viewh15840\viewkind1
+\deftab720
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri0
+
+\f0\b\fs36 \cf0 https://dev.fulgentcorp.com/trinityrestserver.php
+\b0 \
+\
+
+\b Description:
+\b0  a REST web service providing basic query access to a team's remote MySQL database. The simple idea is to assemble the query and arguments as a payload, calculate a private team-specific hash digest, and send it all to the web service. The web service calculates its own hash digest based on the provided team #, compares it to the received payload and either carries out the query or generates an error. \
+\
+Uses parameterized queries so protected via SQL Injection.\
+\
+
+\b Output:
+\b0 \
+XML\
+\
+Successful insert/update/delete output uses tags <okcode> and <oktext>\
+Successful select output uses tags <fieldcount> and <row>\
+Empty select output uses tags <okcode> and <oktext>\
+Error output uses tags <errorcode> and <errortext>\
+\
+
+\b Supports:
+\b0 \
+Select\
+Insert\
+Update \
+Delete\
+
+\b Algorithm:\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri0
+
+\b0 \cf0 1. assemble payload as string comprised of:\
+		a. team #\
+		b. query\
+		c. args\
+	with no spaces separating the parts\
+\
+2. if payload > 200 characters, take the leftmost 200 characters and append the leftmost 55 characters of the salt\
+	else pad the rest of the payload with the salt up to 255 characters\
+\
+3. calc the md5 hash digest\
+\
+4. assemble a URL string with the following query parameters:\
+	teamnumber=a	(Integer 11 or 12)\
+	querypart=b\
+	argpart=c\
+	hash=d\
+\
+5. encode the URL string using 
+\b stringByAddingPercentEscapesUsingEncoding
+\b0 \
+\
+6. call the encoded URL and wait for the results\
+\
+7. timeout OR parse the XML response using 
+\b NSXMLParser
+\b0 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri0
+
+\b \cf0 temporary salt (255 randomly selected characters):
+\b0 \
+i,JhN73EA7S1$-AEI55$XKYXn$8U)AHT-Q$DNuIOsaGZPGeYBZFYkewDLuY6vfPlv6o-rwEPDKpTRArSZxr-HT3S4SPqxfHZcwP9ZTPcd)vu)S3K5lAC)4V#MkW05ePXGfXfyn+IYj&J$wTxOUz9OBzblCRhgh)n2J8rw*zAViJDLd#ZxgY2hET9Glhn8SG1cFjE1OENxOQ,r7OVdnN0rh-y8XR7pX,8dXCVmHiQWzE3wSOG)c7d-+H,KZ)#xuy\
+\
+\
+\
+
+\b Examples:\
+1.\
+Insert\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri0
+
+\b0 \cf0 \
+Query:\
+insert into test1 (testname, age, birthday) values (?, ?, ?)\
+args: Jimbob Smith|30|1980-08-10\
+\
+Request:\
+https://dev.fulgentcorp.com/trinityrestserver.php?teamnumber=1&querypart=insert%20into%20test1%20(testname,%20age,%20birthday)%20values%20(?,%20?,%20?)&argpart=Jimbob%20Smith%7C30%7C1980-08-10&hash=A41148442FCA19EDBDCA4A673B37BE98\
+\
+Response: \
+<?xml version="1.0"?>\
+<response status="OK">\
+<okcode>INSERTED_ID</okcode>\
+<oktext>16</oktext>\
+</response>\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri0
+
+\b \cf0 2.\
+Update\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri0
+
+\b0 \cf0 \
+Query:\
+update test1 set age = ?, birthday = ? where testname like ? and age = ?\
+args: 31|1979-08-10|Jimbob Smi%|30\
+\
+Request:\
+https://dev.fulgentcorp.com/trinityrestserver.php?teamnumber=1&querypart=update%20test1%20set%20age%20=%20?,%20birthday%20=%20?%20where%20testname%20like%20?%20and%20age%20=%20?&argpart=31%7C1979-08-10%7CJimbob%20Smi%25%7C30&hash=71D5B5D6AB0BC33B4A5D9053CF31F795\
+\
+Response:\
+<?xml version="1.0"?>\
+<response status="OK">\
+<okcode>UPDATED</okcode>\
+<oktext>1</oktext>\
+</response>\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri0
+
+\b \cf0 3.\
+Select\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri0
+
+\b0 \cf0 \
+Query:\
+select * from test1 where testname like ? \
+args: Jimbob%\
+\
+Request:\
+https://dev.fulgentcorp.com/trinityrestserver.php?teamnumber=1&querypart=select%20*%20from%20test1%20where%20testname%20like%20?&argpart=Jimbob%25&hash=3D6ED90F02C12CE3629CAE4EA652FCB1\
+\
+Response:\
+<?xml version="1.0"?>\
+<response status="OK">\
+<fieldcount>4</fieldcount>\
+<row>\
+<id>16</id>\
+<testname>Jimbob Smith</testname>\
+<age>31</age>\
+<birthday>1979-08-10</birthday>\
+</row>\
+</response>\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri0
+
+\b \cf0 4. \
+Delete\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri0
+
+\b0 \cf0 \
+Query:\
+delete from test1 where testname like ?\
+args: Jimbob%\
+\
+Request:\
+https://dev.fulgentcorp.com/trinityrestserver.php?teamnumber=1&querypart=delete%20from%20test1%20where%20testname%20like%20?&argpart=Jimbob%25&hash=A3E1C882D481E31EB51E822456780504\
+\
+Response:\
+<?xml version="1.0"?>\
+<response status="OK">\
+<okcode>DELETED</okcode>\
+<oktext>1</oktext>\
+</response>\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri0
+
+\b \cf0 5. \
+Select empty response\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri0
+
+\b0 \cf0 \
+Query:\
+select * from test1 where testname like ? \
+args: Jimbob%\
+\
+Request:\
+https://dev.fulgentcorp.com/trinityrestserver.php?teamnumber=1&querypart=select%20*%20from%20test1%20where%20testname%20like%20?&argpart=Jimbob%25&hash=3D6ED90F02C12CE3629CAE4EA652FCB1\
+\
+Response:\
+<?xml version="1.0"?>\
+<response status="OK">\
+<okcode>NO_ROWS_FOUND</okcode>\
+<oktext>0</oktext>\
+</response>\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri0
+
+\b \cf0 6. \
+SQL error\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri0
+
+\b0 \cf0 \
+Query:\
+select * fromtest1 where testname like ? \
+args: Jimbob%\
+\
+Request:\
+https://dev.fulgentcorp.com/trinityrestserver.php?teamnumber=1&querypart=select%20*%20from%20test1%20where%20testname%20like%20?&argpart=Jimbob%25&hash=503C8DA6344D58E96F62223318AA6971\
+\
+Response:\
+<?xml version="1.0"?>\
+<response status="ERROR">\
+<errorcode>SQL ERROR</errorcode>\
+<errortext>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'fromtest1 where testname like 'Jimbob%'' at line 1</errortext>\
+</response>\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri0
+
+\b \cf0 7. \
+Bad method\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri0
+
+\b0 \cf0 \
+Query:\
+show tables\
+\
+Request:\
+https://dev.fulgentcorp.com/trinityrestserver.php?teamnumber=1&querypart=show%20tables&argpart=&hash=AF8F6A01FD892BE6073CD278CFA8CCAA\
+\
+Response:\
+<?xml version="1.0"?>\
+<response status="ERROR">\
+<errorcode>METHOD ERROR</errorcode>\
+<errortext>INVALID QUERY TYPE: show</errortext>\
+</response>\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri0
+
+\b \cf0 8. \
+Auth error (bad team #, missing parms, bad/missing hash)\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri0
+
+\b0 \cf0 \
+Query:\
+same as 7\
+\
+\
+Request:\
+https://dev.fulgentcorp.com/trinityrestserver.php?teamnumber=1&querypart=select%20*%20from%20test1%20where%20testname%20like%20?&argpart=Jimbob%25&hash=503C8DA6344D58E96F62223318AA6972\
+\
+Response:\
+<?xml version="1.0"?>\
+<response status="ERROR">\
+<errorcode>AUTH ERROR</errorcode>\
+<errortext>I DONT KNOW YOU</errortext>\
+</response>\
+\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri0\ql\qnatural
+
+\b \cf0 \
+\
+\
+\
+\
+USING THE TRINITYRESTQUERYGUTS CLASS\
+
+\b0 \
+\pard\tx866\pardeftab866\ql\qnatural\pardirnatural
+
+\f1 \cf0 \CocoaLigature0 1.\cf2  guts\cf0  = [[\cf2 TrinityRestQueryGuts\cf0  \cf3 alloc\cf0 ] \cf4 initVars\cf0 ];\
+
+\f0 \CocoaLigature1 \
+
+\f1 \CocoaLigature0 2. [\cf2 guts\cf0  \cf4 setQueryText\cf0 :\cf5 @"STUDENTS"\cf0  \cf4 withArgs\cf0 :searchText];\
+\
+3. \cf2 guts\cf0 .\cf2 teamNumber\cf0  = \cf6 5\cf0 ;\
+\
+4. [\cf2 guts\cf0  \cf4 setCallback\cf0 :\cf7 self\cf0  \cf4 selector\cf0 :\cf7 @selector\cf0 (\cf4 queryFinish\cf0 )];
+\f2\fs22 \CocoaLigature1 \
+\
+
+\f1\fs36 \CocoaLigature0 5. [\cf2 guts\cf0  \cf4 startQuery\cf0 ];\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri0\ql\qnatural
+
+\f0\b \cf0 \CocoaLigature1 \
+THE CALLBACK\
+\
+\pard\tx866\pardeftab866\ql\qnatural\pardirnatural
+
+\f1\b0 \cf0 \CocoaLigature0 1.\cf8  NSMutableArray\cf0  *resultsStuff = [\cf2 guts\cf0  \cf4 getResultArray\cf0 ];
+\f0\b \CocoaLigature1 \
+\
+
+\f1\b0 \CocoaLigature0 2. \cf7 int\cf0  numRows = [\cf2 guts\cf0  \cf4 getNumSelectRowsFetched\cf0 ];\
+\
+3.\cf7 for\cf0 (\cf7 int\cf0  i = \cf6 0\cf0 ; i < numRows; i++) \{\
+\
+4.	currentDict = [resultsStuff \
+		\cf3 objectAtIndex\cf0 :i];\
+5.	\cf2 personType\cf0  = [currentDict \
+		\cf3 valueForKey\cf0 :\cf5 @"PersonType"\cf0 ];}

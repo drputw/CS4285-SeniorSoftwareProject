@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="seniorsoftware.tutorme" android:versionCode="1"
+	android:versionName="1.0" android:screenOrientation="portrait">
+	<uses-sdk android:minSdkVersion="10" />
+
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+
+		<activity android:name=".HomePage" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Info" android:label="@string/info">
+		</activity>
+		<activity android:name=".Study" android:label="@string/app_name">
+		</activity>
+		<activity android:name=".EventDetails" android:label="@string/app_name">
+		</activity>
+		<activity android:name=".Settings" android:label="@string/app_name">
+		</activity>
+		<activity android:name=".Tutors" android:label="@string/app_name">
+		</activity>
+		<activity android:name=".TutorDetails" android:label="@string/app_name_tutor_details">
+		</activity>
+		<activity android:name=".About" android:label="@string/app_name_about">
+		</activity>
+		<activity android:name=".CreateStudyEvent" android:label="@string/app_name_create_study_event">
+		</activity>
+		<activity android:name=".FallCalendar" android:label="@string/app_name_fall_calendar">
+		</activity>
+		<activity android:name=".SpringCalendar" android:label="@string/app_name_spring_calendar">
+		</activity>
+		<activity android:name=".SummerCalendar" android:label="@string/app_name_summer_calendar">
+		</activity>
+		<activity android:name=".EventsAttending" android:label="@string/app_name_events_attending">
+		</activity>
+		<activity android:name=".OrganizedEvents" android:label="@string/app_name_organized_events">
+		</activity>
+		<activity android:name=".EditTutor" android:label="@string/app_name_edit_tutor">
+		</activity>
+		<activity android:name=".TheCode" android:label="@string/app_name_the_code">
+		</activity>
+		<activity android:name=".TheCodeBackground" android:label="@string/app_name_code_background">
+		</activity>
+		<activity android:name=".FAQ" android:label="@string/app_name_code_faq">
+		</activity>
+		<activity android:name=".CategoryTutors" android:label="@string/app_name_category_tutors">
+		</activity>
+		<activity android:name=".CategoryStudy" android:label="@string/app_name_category_study">
+		</activity>
+		<activity android:name=".EditEvent" android:label="@string/app_name_edit_event" />
+	</application>
+</manifest>

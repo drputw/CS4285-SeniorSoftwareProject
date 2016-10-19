@@ -1,0 +1,5 @@
+Team 1 MySql DB
+URL: https://devdb.fulgentcorp.com
+login: trinity2011team1
+pw: 7928503385158tomaTo
+db: trinity2011team1

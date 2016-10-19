@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Class Number</key>
+		<string>CSCI 4385-1</string>
+		<key>Class Name</key>
+		<string>Senior Software I</string>
+		<key>Organizer</key>
+		<string>James Seales</string>
+		<key>Month</key>
+		<string>October</string>
+		<key>Day</key>
+		<integer>12</integer>
+		<key>Icon</key>
+		<string>CalendarOctober13.png</string>
+	</dict>
+	<dict>
+		<key>Class Number</key>
+		<string>CSCI 3323-1</string>
+		<key>Class Name</key>
+		<string>Principles of Operating Systems</string>
+		<key>Organizer</key>
+		<string>Berna Massingill</string>
+		<key>Icon</key>
+		<string>CalendarAugust29.png</string>
+	</dict>
+	<dict>
+		<key>Class Number</key>
+		<string>ENG 2301-2</string>
+		<key>Class Name</key>
+		<string>British Lit: Epic to Romantic</string>
+		<key>Organizer</key>
+		<string>Kenny Wong</string>
+		<key>Icon</key>
+		<string>CalendarMay7.png</string>
+	</dict>
+	<dict>
+		<key>Class Number</key>
+		<string>CSCI 2094-1</string>
+		<key>Class Name</key>
+		<string>Computer Seminar</string>
+		<key>Organizer</key>
+		<string>Gerald Pitts</string>
+		<key>Icon</key>
+		<string>CalendarJuly28.png</string>
+	</dict>
+	<dict>
+		<key>Class Number</key>
+		<string>BUSN 2101-1</string>
+		<key>Class Name</key>
+		<string>Corporate Social Responsibility</string>
+		<key>Organizer</key>
+		<string>Linda Specht</string>
+		<key>Icon</key>
+		<string>CalendarDecember25.png</string>
+	</dict>
+	<dict>
+		<key>Class Number</key>
+		<string>COMM 1302-1</string>
+		<key>Class Name</key>
+		<string>Introduction to Film Studies</string>
+		<key>Organizer</key>
+		<string>Patrick Keating</string>
+		<key>Icon</key>
+		<string>CalendarNovember17.png</string>
+	</dict>
+</array>
+</plist>

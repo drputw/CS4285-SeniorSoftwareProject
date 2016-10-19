@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:padding="5dp">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/tvName"
+				android:layout_marginBottom="10px" android:textStyle="bold"
+				android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+
+
+			<TextView android:layout_height="wrap_content" android:text="Subject"
+				android:id="@+id/tvSubject" android:textStyle="bold"
+				android:layout_marginLeft="15px" android:layout_width="wrap_content"
+				android:layout_marginBottom="15px"></TextView>
+
+			<Spinner android:layout_width="150dp" android:id="@+id/sSubject"
+				android:layout_height="40dp" android:layout_marginLeft="20px"></Spinner>
+
+
+			<EditText android:id="@+id/etSubject" android:layout_width="150dp"
+				android:layout_marginLeft="20px" android:layout_height="30dp"
+				android:textSize="15px" android:visibility="gone">
+			</EditText>
+
+			<TextView android:layout_height="wrap_content" android:text="Course"
+				android:id="@+id/tvCourse" android:textStyle="bold"
+				android:layout_marginLeft="15px" android:layout_width="wrap_content"
+				android:layout_marginBottom="15px"></TextView>
+
+
+			<EditText android:id="@+id/etCourse"
+				android:layout_marginLeft="20px" android:layout_width="150dp"
+				android:layout_height="30dp" android:textSize="15px">
+			</EditText>
+
+			<TextView android:layout_height="wrap_content" android:text="Class Name"
+				android:id="@+id/tvName" android:textStyle="bold"
+				android:layout_marginLeft="15px" android:layout_width="wrap_content"
+				android:layout_marginBottom="15px"></TextView>
+
+
+			<EditText android:id="@+id/etClassName"
+				android:layout_marginLeft="20px" android:layout_width="150dp"
+				android:layout_height="30dp" android:textSize="15px">
+			</EditText>
+			
+			<TextView android:layout_height="wrap_content" android:text="Location"
+				android:id="@+id/tvLoc" android:textStyle="bold"
+				android:layout_marginLeft="15px" android:layout_width="wrap_content"
+				android:layout_marginBottom="15px"></TextView>
+
+
+			<EditText android:id="@+id/etLoc"
+				android:layout_marginLeft="20px" android:layout_width="150dp"
+				android:layout_height="30dp" android:textSize="15px">
+			</EditText>
+
+			<TextView android:layout_height="wrap_content" android:text="Date"
+				android:id="@+id/tvDate" android:layout_marginLeft="20px"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_marginBottom="5px"></TextView>
+
+			<DatePicker android:id="@+id/dpNewEvent" android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="244dp" android:layout_height="84dp" android:layout_marginBottom="30px"
+				android:layout_marginLeft="20px"></DatePicker>
+
+			<!-- <EditText android:id="@+id/etDate" android:inputType="date" android:layout_marginLeft="20px" -->
+			<!-- android:layout_width="136dp" android:layout_height="25dp" -->
+			<!-- android:textSize="15px"></EditText> -->
+
+			<TextView android:layout_height="wrap_content" android:text="Time"
+				android:id="@+id/tvTime" android:textStyle="bold"
+				android:layout_marginLeft="15px" android:layout_width="wrap_content"
+				android:layout_marginBottom="15px"></TextView>
+
+
+			<TimePicker android:id="@+id/tpNewEvent"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginLeft="20px"></TimePicker>
+
+			<!-- <EditText android:id="@+id/etTime" android:inputType="time" android:layout_marginLeft="20px" -->
+			<!-- android:layout_width="136dp" android:layout_height="25dp" -->
+			<!-- android:textSize="15px"></EditText> -->
+			
+			<CheckBox android:text="Recurring Event " android:id="@+id/cbRecurring"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+				
+			<TextView android:layout_height="30dp" android:text="Email"
+				android:id="@+id/tvEmailLabel" android:textStyle="bold"
+				android:layout_marginLeft="15px" android:layout_width="150dp"
+				android:layout_marginBottom="5px"></TextView>
+
+			<EditText android:id="@+id/etEmail" android:inputType="textEmailAddress"
+				android:layout_marginLeft="20px" android:layout_height="30dp"
+				android:layout_width="150dp" android:textSize="15px"></EditText>
+
+			<TextView android:layout_height="30dp" android:text="Phone"
+				android:id="@+id/tvPhoneLabel" android:textStyle="bold"
+				android:layout_marginLeft="15px" android:layout_width="150dp"
+				android:layout_marginBottom="5px"></TextView>
+
+			<EditText android:id="@+id/etPhone" android:inputType="phone"
+				android:layout_marginLeft="20px" android:layout_width="150dp"
+				android:layout_height="30dp" android:textSize="15px"></EditText>
+
+			<TextView android:layout_height="wrap_content" android:text="Description"
+				android:id="@+id/tvDescriptionLabel" android:textStyle="bold"
+				android:layout_marginLeft="15px" android:layout_width="wrap_content"
+				android:layout_marginBottom="15px"></TextView>
+
+			<EditText android:id="@+id/etDescription"
+				android:layout_marginLeft="20px" android:layout_width="match_parent"
+				android:inputType="textMultiLine" android:layout_height="112dp"
+				android:textSize="15px">
+
+			</EditText>
+			<LinearLayout android:id="@+id/linearLayout1"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="horizontal">
+
+				<Button android:text="Create Event" android:id="@+id/btnCreate"
+					android:layout_gravity="center_vertical|center_horizontal|center"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+
+				<Button android:text="Cancel" android:id="@+id/btnCancel"
+					android:layout_gravity="center_vertical|center_horizontal|center"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+			</LinearLayout>
+
+			<FrameLayout android:id="@android:id/tabcontent"
+				android:layout_width="fill_parent" android:padding="5dp"
+				android:layout_height="wrap_content">
+			</FrameLayout>
+			<TabWidget android:tabStripEnabled="false"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:id="@android:id/tabs" android:layout_weight="0.05"></TabWidget>
+		</LinearLayout>
+	</ScrollView>
+</TabHost>

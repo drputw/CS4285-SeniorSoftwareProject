@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="fill_parent" android:layout_height="fill_parent">
+ <LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_height="fill_parent" 
+	android:id="@+id/linearLayout1" 
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_gravity="center_horizontal" android:gravity="top">
+	
+	<TextView android:textAppearance="?android:attr/textAppearanceMedium" 
+	    android:id="@+id/thecodebackgroundtext" 
+	    android:text='It is no secret that academic integrity violations have been on the rise in universities across the country. According to the Center for Academic Integrity (CAI), “On most campuses, 70% of students admit to some cheating.”1However, institutions that implement honor codes typically see a substantial drop in the amount of cheating. Given these circumstances, a group of Trinity students began the push for an honor code in the mid-1990’s. Met with resistance, the project stalled, but was resurrected again after President John Brazil took office. A devoted group of students carefully researched honor codes across the country. They wrote Trinity’s Academic Honor Code. A student town hall meeting in the Coates Center drew an overflow crowd, echoing the unity of the student body regarding the issue. As the Academic Honor Code gained momentum, administrators, faculty and students drafted final versions of the Honor Code. After much collaboration and hard work, the Academic Honor Code passed the Association of Student Representatives and the Faculty Senate on February 21, 2003. Trinity finally had a student owned, student run academic integrity system.'
+	    android:layout_width="wrap_content" android:gravity="center"
+	    android:layout_centerHorizontal="true" android:layout_height="match_parent">
+	    </TextView>
+	    </LinearLayout>
+	    </ScrollView>

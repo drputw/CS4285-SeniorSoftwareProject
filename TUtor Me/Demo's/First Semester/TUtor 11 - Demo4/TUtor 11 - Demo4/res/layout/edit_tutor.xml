@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TextView android:layout_width="wrap_content"
+		android:minWidth="150px" android:background="#000000"
+		android:layout_height="wrap_content" android:id="@+id/tvName"
+		android:text="James Seales" android:layout_marginBottom="10px"
+		android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+
+		<!-- <LinearLayout android:id="@+id/linearLayout1" -->
+		<!-- android:layout_width="match_parent" android:layout_height="wrap_content" -->
+		<!-- android:orientation="vertical"> -->
+		<!-- </LinearLayout> -->
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:padding="5dp"
+			android:layout_height="wrap_content">
+
+
+
+			<TextView android:layout_height="wrap_content" android:text="Computer Science"
+				android:id="@+id/tvMajor" android:layout_marginLeft="20px"
+				android:layout_marginTop="40px" android:layout_width="wrap_content"
+				android:layout_marginBottom="10px"></TextView>
+
+			<TextView android:layout_height="wrap_content" android:text="Senior"
+				android:id="@+id/tvRank" android:layout_marginLeft="20px"
+				android:layout_width="wrap_content" android:layout_marginBottom="20px"></TextView>
+
+			<TextView android:layout_height="wrap_content" android:text="Subject"
+				android:id="@+id/tvSubject" android:textStyle="bold"
+				android:layout_marginLeft="15px" android:layout_width="wrap_content"
+				android:layout_marginBottom="15px"></TextView>
+
+
+			<Spinner android:layout_width="260dp" android:id="@+id/tutor_major1"
+				android:layout_height="50dp" android:layout_marginLeft="20px"
+				android:layout_marginRight="20px" />
+			<Spinner android:layout_width="260dp" android:id="@+id/tutor_major2"
+				android:layout_height="50dp" android:layout_marginLeft="20px"
+				android:layout_marginRight="20px" />
+			<Spinner android:layout_width="260dp" android:id="@+id/tutor_major3"
+				android:layout_height="50dp" android:layout_marginLeft="20px"
+				android:layout_marginRight="20px" />
+
+
+			<TextView android:layout_height="wrap_content" android:text="General Times Available"
+				android:id="@+id/tvTimes" android:textStyle="bold"
+				android:layout_marginLeft="15px" android:layout_width="wrap_content"
+				android:layout_marginBottom="15px"></TextView>
+
+			<EditText android:id="@+id/etTimes" android:text="Monday - Wednesday. 12:30 - 4:00"
+				android:inputType="textMultiLine" android:layout_marginLeft="20px"
+				android:layout_height="fill_parent" android:layout_marginRight="20px"
+				android:layout_marginBottom="20px" android:layout_width="match_parent"
+				android:layout_weight="0.04"></EditText>
+
+			<TextView android:layout_height="wrap_content" android:text="Email"
+				android:id="@+id/tvEmailLabel" android:textStyle="bold"
+				android:layout_marginLeft="15px" android:layout_width="wrap_content"
+				android:layout_marginBottom="5px"></TextView>
+
+			<EditText android:id="@+id/etEmail" android:layout_width="match_parent"
+				android:text="come@me.bro" android:layout_height="wrap_content"
+				android:layout_marginLeft="20px" android:inputType="textEmailAddress">
+			</EditText>
+
+			<TextView android:layout_height="wrap_content" android:text="Phone"
+				android:id="@+id/tvPhoneLabel" android:textStyle="bold"
+				android:layout_marginLeft="15px" android:layout_width="wrap_content"
+				android:layout_marginBottom="5px"></TextView>
+
+			<EditText android:id="@+id/etPhone" android:layout_width="match_parent"
+				android:text="555-5555" android:layout_height="wrap_content"
+				android:layout_marginLeft="20px" android:inputType="phone"></EditText>
+
+
+			<TextView android:layout_height="wrap_content" android:text="Description"
+				android:id="@+id/tvDescriptionLabel" android:textStyle="bold"
+				android:layout_marginLeft="15px" android:layout_width="wrap_content"
+				android:layout_marginBottom="15px"></TextView>
+
+			<EditText android:id="@+id/etDescription"
+				android:text="I'm a super mega awesome tutor in every conceivable subject! Choose me!"
+				android:inputType="textMultiLine" android:layout_marginLeft="20px"
+				android:layout_marginRight="20px" android:layout_marginBottom="20px"
+				android:layout_height="fill_parent" android:layout_width="match_parent"
+				android:layout_weight="0.02"></EditText>
+
+			<!-- <QuickContactBadge android:id="@+id/quickContactBadge1" -->
+			<!-- style="?android:attr/quickContactBadgeStyleWindowLarge" -->
+			<!-- android:layout_width="wrap_content" android:layout_height="wrap_content"></QuickContactBadge> -->
+
+			<Button android:layout_height="wrap_content" android:id="@+id/btnSave"
+				android:text="Save" android:layout_width="298dp"></Button>
+
+			<Button android:layout_height="wrap_content" android:id="@+id/btnCancel"
+				android:text="Cancel" android:layout_width="298dp"></Button>
+
+
+			<FrameLayout android:id="@android:id/tabcontent"
+				android:layout_width="fill_parent" android:padding="5dp"
+				android:layout_height="wrap_content">
+			</FrameLayout>
+			<TabWidget android:tabStripEnabled="true"
+				android:visibility="visible" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@android:id/tabs"
+				android:layout_weight="0.05"></TabWidget>
+		</LinearLayout>
+	</ScrollView>
+</TabHost>

@@ -1,0 +1,1461 @@
+TMovieTable
+v7
+r0
+t343081122.527679
+cCheck dependencies
+cProcessInfoPlistFile /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app/Info.plist MovieTable-Info.plist
+cCompileXIB /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/MainWindow.xib
+cCompileXIB /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/RootViewController.xib
+cCompileXIB /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/MovieEditorViewController.xib
+cCompileXIB /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/MovieTableCell.xib
+cCpResource build/Debug-iphonesimulator/MovieTable.app/ToggleButtonNormal.png ToggleButtonNormal.png
+cCpResource build/Debug-iphonesimulator/MovieTable.app/ToggleButtonDown.png ToggleButtonDown.png
+cCpResource build/Debug-iphonesimulator/MovieTable.app/ToggleButtonSelected.png ToggleButtonSelected.png
+cProcessPCH /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-eojzthpnbrtozdgpolajwksgedgg/MovieTable_Prefix.pch.gch MovieTable_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/main.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieTableAppDelegate.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/MovieTableAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/RootViewController.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/Movie.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/Movie.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieEditorViewController.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/MovieEditorViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/SelectableButton.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/SelectableButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TrinityRestQueryView.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQueryView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TrinityRestQueryGuts.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQueryGuts.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app/MovieTable normal i386
+cGenerateDSYMFile /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app.dSYM /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app/MovieTable
+cTouch /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+c000000004A11E8210000000000002407
+t1242687521
+s9223
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/Movie.h
+c000000004CB11E5C0000000000000229
+t1286676060
+s553
+i<Foundation/Foundation.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/Movie.m
+c000000004CB11F890000000000000283
+t1286676361
+s643
+i"Movie.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/MovieEditorViewController.h
+c000000004CB266A2000000000000028D
+t1286760098
+s653
+i<UIKit/UIKit.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/MovieEditorViewController.m
+c000000004D4B86810000000000000B29
+t1296795265
+s2857
+i"MovieEditorViewController.h"
+i"Movie.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/MovieTableAppDelegate.h
+c000000004D4B26EE00000000000001DC
+t1296770798
+s476
+i<UIKit/UIKit.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/MovieTableAppDelegate.m
+c000000004D4B26EE0000000000000AB3
+t1296770798
+s2739
+i"MovieTableAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/RootViewController.h
+c000000004D4CBDED00000000000002EA
+t1296874989
+s746
+i<UIKit/UIKit.h>
+i"Movie.h"
+i"MovieEditorViewController.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/RootViewController.m
+c000000004D4CBEE70000000000001AF3
+t1296875239
+s6899
+i"RootViewController.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/MainWindow.xib
+c000000004D4CBEB80000000000008A5F
+t1296875192
+s35423
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/MovieEditorViewController.xib
+c000000004D4B80650000000000006A61
+t1296793701
+s27233
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/MovieTableCell.xib
+c000000004D4CB4F90000000000006993
+t1296872697
+s27027
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/MovieTable_Prefix.pch
+c000000004D4B26EE0000000000000146
+t1296770798
+s326
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/RootViewController.xib
+c000000004D4CB2A5000000000000584E
+t1296872101
+s22606
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app
+t1296875241
+s306
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app.dSYM
+t1296875241
+s102
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/Info.plist
+t1296770823
+s603
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/MainWindow.nib
+t1296875196
+s2380
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/MovieEditorViewController.nib
+t1296795509
+s2374
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/MovieTable
+t1296875241
+s33980
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/MovieTableCell.nib
+t1296872982
+s1977
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/PkgInfo
+t1296770823
+s8
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/RootViewController.nib
+t1296872982
+s1127
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/Movie.o
+t1296789527
+s10896
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieEditorViewController.o
+t1296795509
+s50924
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieTable.LinkFileList
+c000000004D4B87750000000000000300
+t1296795509
+s768
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieTableAppDelegate.o
+t1296875157
+s52796
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/RootViewController.o
+t1296875241
+s57752
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/main.o
+t1296770824
+s6332
+
+N/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/main.m
+c000000004D4B26EE000000000000016C
+t1296770798
+s364
+i<UIKit/UIKit.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/LoadingView.h
+c000000004D575740000000000000026F
+t1297569600
+s623
+i<UIKit/UIKit.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/LoadingView.m
+c000000004D5DA2650000000000001D1F
+t1297982053
+s7455
+i"LoadingView.h"
+i<QuartzCore/QuartzCore.h>
+i"SelectableButton.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/Movie.h
+c000000004CB11E5C0000000000000229
+t1286676060
+s553
+i<Foundation/Foundation.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/Movie.m
+c000000004CB11F890000000000000283
+t1286676361
+s643
+i"Movie.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/MovieEditorViewController.h
+c000000004CB266A2000000000000028D
+t1286760098
+s653
+i<UIKit/UIKit.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/MovieEditorViewController.m
+c000000004D56D1960000000000000B2C
+t1297535382
+s2860
+i"MovieEditorViewController.h"
+i"Movie.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/MovieTableAppDelegate.h
+c000000004D4B26EE00000000000001DC
+t1296770798
+s476
+i<UIKit/UIKit.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/MovieTableAppDelegate.m
+c000000004D4B26EE0000000000000AB3
+t1296770798
+s2739
+i"MovieTableAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/QueryProgressViewController.h
+c000000004D56BCDD00000000000002E0
+t1297530077
+s736
+i<UIKit/UIKit.h>
+i"TrinityRestQuery.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/QueryProgressViewController.m
+c000000004D56BCE900000000000007D9
+t1297530089
+s2009
+i"QueryProgressViewController.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/RootViewController.h
+c000000004D5EBDBD0000000000000429
+t1298054589
+s1065
+i<UIKit/UIKit.h>
+i"Movie.h"
+i"MovieEditorViewController.h"
+i"TrinityRestQuery.h"
+i"LoadingView.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/RootViewController.m
+c000000004D60884E0000000000004731
+t1298171982
+s18225
+i"RootViewController.h"
+i"SelectableButton.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/SelectableButton.h
+c000000004D5EBBBF00000000000001C3
+t1298054079
+s451
+i<UIKit/UIKit.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/SelectableButton.m
+c000000004D5EBBBC0000000000000C32
+t1298054076
+s3122
+i"SelectableButton.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/TDSemiModal.h
+c000000004CEDB49E00000000000000E3
+t1290646686
+s227
+i"TDSemiModalViewController.h"
+i"UIViewController+TDSemiModalExtension.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/TDSemiModalViewController.h
+c000000004CEDB49E000000000000012B
+t1290646686
+s299
+i<Foundation/Foundation.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/TDSemiModalViewController.m
+c000000004CEDB49E0000000000000341
+t1290646686
+s833
+i"TDSemiModalViewController.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/TrinityRestQuery.h
+c000000004D602BA500000000000009BE
+t1298148261
+s2494
+i<Foundation/Foundation.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/TrinityRestQuery.m
+c000000004D607D0D0000000000003377
+t1298169101
+s13175
+i"TrinityRestQuery.h"
+i<CommonCrypto/CommonDigest.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/UIViewController+TDSemiModalExtension.h
+c000000004CEDB49E000000000000022D
+t1290646686
+s557
+i<Foundation/Foundation.h>
+i"TDSemiModalViewController.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/UIViewController+TDSemiModalExtension.m
+c000000004CEDB49E0000000000000BCE
+t1290646686
+s3022
+i"UIViewController+TDSemiModalExtension.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/MainWindow.xib
+c000000004D4CBEB80000000000008A5F
+t1296875192
+s35423
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/MovieEditorViewController.xib
+c000000004D4B80650000000000006A61
+t1296793701
+s27233
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/MovieTableCell.xib
+c000000004D4CB4F90000000000006993
+t1296872697
+s27027
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/MovieTable_Prefix.pch
+c000000004D4B26EE0000000000000146
+t1296770798
+s326
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/QueryProgressView.xib
+c000000004D55D6620000000000004F13
+t1297471074
+s20243
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/QueryProgressViewController.xib
+c000000004D56BD0B0000000000006334
+t1297530123
+s25396
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/QueryProgressView_temp.xib
+c000000004D55D6620000000000004F13
+t1297471074
+s20243
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/RootViewController.xib
+c000000004D57324100000000000065CB
+t1297560129
+s26059
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/ToggleButtonDown.png
+c000000004D574B110000000000002525
+t1297566481
+s9509
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/ToggleButtonNormal.png
+c000000004D574B110000000000002525
+t1297566481
+s9509
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/ToggleButtonSelected.png
+c000000004D574B110000000000002525
+t1297566481
+s9509
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app
+t1298171983
+s476
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app.dSYM
+t1298171983
+s102
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/Info.plist
+t1296770823
+s603
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/MainWindow.nib
+t1296875196
+s2380
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/MovieEditorViewController.nib
+t1296795509
+s2374
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/MovieTable
+t1298171982
+s79796
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/MovieTableCell.nib
+t1296872982
+s1977
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/PkgInfo
+t1296770823
+s8
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/QueryProgressView.nib
+t1297477656
+s1896
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/QueryProgressViewController.nib
+t1297530126
+s2114
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/QueryProgressView_temp.nib
+t2
+s0
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/RootViewController.nib
+t1297714067
+s1127
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/ToggleButtonDown.png
+t1297714067
+s9509
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/ToggleButtonNormal.png
+t1297714067
+s9509
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/ToggleButtonSelected.png
+t1297714067
+s9509
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/LoadingView.o
+t1298171968
+s52484
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/Movie.o
+t1297001080
+s10896
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieEditorViewController.o
+t1297535408
+s50924
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieTable.LinkFileList
+c000000004D598B9300000000000004C4
+t1297714067
+s1220
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieTableAppDelegate.o
+t1298171967
+s52804
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/QueryProgressViewController.o
+t1297557452
+s45532
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/RootViewController.o
+t1298171982
+s86004
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/SelectableButton.o
+t1298171968
+s42496
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TDSemiModalViewController.o
+t1297483503
+s41276
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TrinityRestQuery.o
+t1298171968
+s45704
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/UIViewController+TDSemiModalExtension.o
+t1297483503
+s44160
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/main.o
+t1297001080
+s6332
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable/main.m
+c000000004D4B26EE000000000000016C
+t1296770798
+s364
+i<UIKit/UIKit.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/LoadingView.h
+c000000004D575740000000000000026F
+t1297569600
+s623
+i<UIKit/UIKit.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/LoadingView.m
+c000000004D5DA2650000000000001D1F
+t1297982053
+s7455
+i"LoadingView.h"
+i<QuartzCore/QuartzCore.h>
+i"SelectableButton.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/Movie.h
+c000000004CB11E5C0000000000000229
+t1286676060
+s553
+i<Foundation/Foundation.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/Movie.m
+c000000004CB11F890000000000000283
+t1286676361
+s643
+i"Movie.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/MovieEditorViewController.h
+c000000004CB266A2000000000000028D
+t1286760098
+s653
+i<UIKit/UIKit.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/MovieEditorViewController.m
+c000000004D56D1960000000000000B2C
+t1297535382
+s2860
+i"MovieEditorViewController.h"
+i"Movie.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/MovieTableAppDelegate.h
+c000000004D4B26EE00000000000001DC
+t1296770798
+s476
+i<UIKit/UIKit.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/MovieTableAppDelegate.m
+c000000004D4B26EE0000000000000AB3
+t1296770798
+s2739
+i"MovieTableAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/RootViewController.h
+c000000004D6D448F00000000000003D0
+t1299006607
+s976
+i<UIKit/UIKit.h>
+i"Movie.h"
+i"MovieEditorViewController.h"
+i"TrinityRestQueryView.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/RootViewController.m
+c000000004EC2C9210000000000002BDF
+t1321388321
+s11231
+i"RootViewController.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/SelectableButton.h
+c000000004D65C4650000000000000254
+t1298515045
+s596
+i<UIKit/UIKit.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/SelectableButton.m
+c000000004D65C47E000000000000121C
+t1298515070
+s4636
+i"SelectableButton.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQuery.h
+c000000004D65D02A000000000000090C
+t1298518058
+s2316
+i<Foundation/Foundation.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQuery.m
+c000000004D65D0710000000000005340
+t1298518129
+s21312
+i"TrinityRestQuery.h"
+i<CommonCrypto/CommonDigest.h>
+i<QuartzCore/QuartzCore.h>
+i"SelectableButton.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQuery2.h
+c000000004D62CCEF00000000000009BF
+t1298320623
+s2495
+i<Foundation/Foundation.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQuery2.m
+c000000004D62CCE60000000000003379
+t1298320614
+s13177
+i"TrinityRestQuery2.h"
+i<CommonCrypto/CommonDigest.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQueryGuts.h
+c000000004D6DD4F800000000000009BD
+t1299043576
+s2493
+i<Foundation/Foundation.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQueryGuts.m
+c000000004EC2C88D00000000000036F2
+t1321388173
+s14066
+i"TrinityRestQueryGuts.h"
+i<CommonCrypto/CommonDigest.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQueryView.h
+c000000004D6FAC480000000000000406
+t1299164232
+s1030
+i<Foundation/Foundation.h>
+i"TrinityRestQueryGuts.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQueryView.m
+c000000004D6FAC670000000000002667
+t1299164263
+s9831
+i"TrinityRestQueryView.h"
+i"TrinityRestQueryGuts.h"
+i<QuartzCore/QuartzCore.h>
+i"SelectableButton.h"
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/MainWindow.xib
+c000000004D4CBEB80000000000008A5F
+t1296875192
+s35423
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/MovieEditorViewController.xib
+c000000004D4B80650000000000006A61
+t1296793701
+s27233
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/MovieTableCell.xib
+c000000004D4CB4F90000000000006993
+t1296872697
+s27027
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/MovieTable_Prefix.pch
+c000000004D4B26EE0000000000000146
+t1296770798
+s326
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/RootViewController.xib
+c000000004D57324100000000000065CB
+t1297560129
+s26059
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/ToggleButtonDown.png
+c000000004D574B110000000000002525
+t1297566481
+s9509
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/ToggleButtonNormal.png
+c000000004D574B110000000000002525
+t1297566481
+s9509
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/ToggleButtonSelected.png
+c000000004D574B110000000000002525
+t1297566481
+s9509
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app
+t1321388322
+s476
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app.dSYM
+t1321388322
+s102
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app/Info.plist
+t1296770823
+s603
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app/MainWindow.nib
+t1296875196
+s2380
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app/MovieEditorViewController.nib
+t1296795509
+s2374
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app/MovieTable
+t1321388322
+s85864
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app/MovieTableCell.nib
+t1296872982
+s1977
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app/PkgInfo
+t1296770823
+s8
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app/RootViewController.nib
+t1297714067
+s1127
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app/ToggleButtonDown.png
+t1297714067
+s9509
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app/ToggleButtonNormal.png
+t1297714067
+s9509
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app/ToggleButtonSelected.png
+t1297714067
+s9509
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/LoadingView.o
+t1298333041
+s52484
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/Movie.o
+t1299164237
+s10896
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieEditorViewController.o
+t1299164237
+s50924
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieTable.LinkFileList
+c000000004D6D592A00000000000004D9
+t1299011882
+s1241
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieTableAppDelegate.o
+t1299164237
+s52804
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/RootViewController.o
+t1321388322
+s73324
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/SelectableButton.o
+t1299164237
+s45756
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TrinityRestQuery.o
+t1298990390
+s97720
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TrinityRestQuery2.o
+t1298333041
+s45824
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TrinityRestQueryGuts.o
+t1321388175
+s56868
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TrinityRestQueryView.o
+t1299164266
+s70240
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/main.o
+t1299164237
+s6332
+
+N/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/main.m
+c000000004D4B26EE000000000000016C
+t1296770798
+s364
+i<UIKit/UIKit.h>
+
+N/var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-chxqdhshrkcjavfzgodkxcorvpvj/MovieTable_Prefix.pch.gch
+t1297001080
+s15453392
+
+N/var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-degkfkcatcvalteeqvyeuumfpiey/MovieTable_Prefix.pch.gch
+t1296770824
+s15453392
+
+N/var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-eojzthpnbrtozdgpolajwksgedgg/MovieTable_Prefix.pch.gch
+t1299164237
+s15457488
+
+N/var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-fjpztzwpsamuxcerzysaglqypqdd/MovieTable_Prefix.pch.gch
+t1298333041
+s15453392
+
+NMovieTable-Info.plist
+c000000004D4B26EE000000000000038D
+t1296770798
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies343081122#343081122#0(0"0(0#1#0"8608930048#0"0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/LoadingView.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/LoadingView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319864768.017498
+e319864768.154488
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/LoadingView.o
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/LoadingView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/LoadingView.m319864768#319864768#0(0"0(0#0#74"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/LoadingView.m8641516928#2150"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-chxqdhshrkcjavfzgodkxcorvpvj/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/LoadingView.m -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/LoadingView.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/LoadingView.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/LoadingView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320025841.615266
+e320025841.739620
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/LoadingView.o
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/LoadingView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/LoadingView.m320025841#320025841#0(0"0(0#0#75"/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/LoadingView.m8616975840#2161"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-fjpztzwpsamuxcerzysaglqypqdd/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/LoadingView.m -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/LoadingView.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/Movie.o /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/Movie.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318482327.919470
+e318482327.989881
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/Movie.o
+x/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/Movie.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/Movie.m318482327#318482327#0(0"0(0#0#69"/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/Movie.m8613898816#2149"    cd /Users/marcos/Desktop/code/xcode/tutorials/MovieTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-degkfkcatcvalteeqvyeuumfpiey/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/Movie.m -o /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/Movie.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/Movie.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/Movie.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318693880.787210
+e318693880.859184
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/Movie.o
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/Movie.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/Movie.m318693880#318693880#0(0"0(0#0#68"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/Movie.m8604015104#2138"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-chxqdhshrkcjavfzgodkxcorvpvj/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/Movie.m -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/Movie.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/Movie.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/Movie.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320857037.518825
+e320857037.603425
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/Movie.o
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/Movie.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/Movie.m320857037#320857037#0(0"0(0#0#69"/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/Movie.m8618400192#2633"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DTEST_RESULT_ERROR_BAD_TEAM=1 -DTEST_RESULT_ERROR_NO_SQL=2 -DTEST_RESULT_ERROR_TIMEOUT=3 -DTEST_RESULT_ERROR_AUTH=4 -DTEST_RESULT_ERROR_SQL=5 -DTEST_RESULT_SELECT_NO_ROWS=10 -DTEST_RESULT_SELECT_SUCCESS=11 -DTEST_RESULT_INSERT_NO_ID=20 -DTEST_RESULT_INSERT_SUCCESS=21 -DTEST_RESULT_UPDATE_NO_ROWS=30 -DTEST_RESULT_UPDATE_SUCCESS=31 -DTEST_RESULT_DELETE_NO_ROWS=40 -DTEST_RESULT_DELETE_SUCCESS=41 -DTEST_RESULT_ERROR_UNKNOWN_QUERY_TYPE=500 -DTEST_RESULT_ERROR_UNKNOWN_QUERY_STATE=501 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-eojzthpnbrtozdgpolajwksgedgg/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/Movie.m -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/Movie.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieEditorViewController.o /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/MovieEditorViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318488309.722444
+e318488309.862526
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieEditorViewController.o
+x/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/MovieEditorViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/MovieEditorViewController.m318488309#318488309#0(0"0(0#0#89"/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/MovieEditorViewController.m8616707104#2189"    cd /Users/marcos/Desktop/code/xcode/tutorials/MovieTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-degkfkcatcvalteeqvyeuumfpiey/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/MovieEditorViewController.m -o /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieEditorViewController.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieEditorViewController.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/MovieEditorViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319228208.823930
+e319228208.987316
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieEditorViewController.o
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/MovieEditorViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/MovieEditorViewController.m319228208#319228208#0(0"0(0#0#88"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/MovieEditorViewController.m8616813824#2178"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-chxqdhshrkcjavfzgodkxcorvpvj/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/MovieEditorViewController.m -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieEditorViewController.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieEditorViewController.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/MovieEditorViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320857037.603522
+e320857037.703592
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieEditorViewController.o
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/MovieEditorViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/MovieEditorViewController.m320857037#320857037#0(0"0(0#0#89"/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/MovieEditorViewController.m8618692224#2673"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DTEST_RESULT_ERROR_BAD_TEAM=1 -DTEST_RESULT_ERROR_NO_SQL=2 -DTEST_RESULT_ERROR_TIMEOUT=3 -DTEST_RESULT_ERROR_AUTH=4 -DTEST_RESULT_ERROR_SQL=5 -DTEST_RESULT_SELECT_NO_ROWS=10 -DTEST_RESULT_SELECT_SUCCESS=11 -DTEST_RESULT_INSERT_NO_ID=20 -DTEST_RESULT_INSERT_SUCCESS=21 -DTEST_RESULT_UPDATE_NO_ROWS=30 -DTEST_RESULT_UPDATE_SUCCESS=31 -DTEST_RESULT_DELETE_NO_ROWS=40 -DTEST_RESULT_DELETE_SUCCESS=41 -DTEST_RESULT_ERROR_UNKNOWN_QUERY_TYPE=500 -DTEST_RESULT_ERROR_UNKNOWN_QUERY_STATE=501 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-eojzthpnbrtozdgpolajwksgedgg/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/MovieEditorViewController.m -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieEditorViewController.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieTableAppDelegate.o /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/MovieTableAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318567957.450080
+e318567957.527183
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieTableAppDelegate.o
+x/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/MovieTableAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/MovieTableAppDelegate.m318567957#318567957#0(0"0(0#0#85"/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/MovieTableAppDelegate.m8598568864#2181"    cd /Users/marcos/Desktop/code/xcode/tutorials/MovieTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-degkfkcatcvalteeqvyeuumfpiey/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/MovieTableAppDelegate.m -o /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieTableAppDelegate.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieTableAppDelegate.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/MovieTableAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319864767.684378
+e319864767.879274
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieTableAppDelegate.o
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/MovieTableAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/MovieTableAppDelegate.m319864767#319864767#0(0"0(0#0#84"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/MovieTableAppDelegate.m8618134400#2170"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-chxqdhshrkcjavfzgodkxcorvpvj/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/MovieTableAppDelegate.m -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieTableAppDelegate.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieTableAppDelegate.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/MovieTableAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320857037.396099
+e320857037.518722
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieTableAppDelegate.o
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/MovieTableAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/MovieTableAppDelegate.m320857037#320857037#0(0"0(0#0#85"/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/MovieTableAppDelegate.m8616355712#2665"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DTEST_RESULT_ERROR_BAD_TEAM=1 -DTEST_RESULT_ERROR_NO_SQL=2 -DTEST_RESULT_ERROR_TIMEOUT=3 -DTEST_RESULT_ERROR_AUTH=4 -DTEST_RESULT_ERROR_SQL=5 -DTEST_RESULT_SELECT_NO_ROWS=10 -DTEST_RESULT_SELECT_SUCCESS=11 -DTEST_RESULT_INSERT_NO_ID=20 -DTEST_RESULT_INSERT_SUCCESS=21 -DTEST_RESULT_UPDATE_NO_ROWS=30 -DTEST_RESULT_UPDATE_SUCCESS=31 -DTEST_RESULT_DELETE_NO_ROWS=40 -DTEST_RESULT_DELETE_SUCCESS=41 -DTEST_RESULT_ERROR_UNKNOWN_QUERY_TYPE=500 -DTEST_RESULT_ERROR_UNKNOWN_QUERY_STATE=501 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-eojzthpnbrtozdgpolajwksgedgg/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/MovieTableAppDelegate.m -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieTableAppDelegate.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/QueryProgressViewController.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/QueryProgressViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319250252.019531
+e319250252.113687
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/QueryProgressViewController.o
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/QueryProgressViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/QueryProgressViewController.m:80: warning: property 'delegate' requires method '-delegate' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/QueryProgressViewController.m:80: warning: property 'delegate' requires the method 'setDelegate:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@98"Compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/QueryProgressViewController.m319250252#319250252#0(465"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/QueryProgressViewController.m:80: warning: property 'delegate' requires method '-delegate' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/QueryProgressViewController.m:80: warning: property 'delegate' requires the method 'setDelegate:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@124"Property 'delegate' requires method '-delegate' to be defined - use @synthesize, @dynamic or provide a method implementation319250252#0#229#0(6@90"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/QueryProgressViewController.m319222889#80#0#80#0#0"0(22@131"Property 'delegate' requires the method 'setDelegate:' to be defined - use @synthesize, @dynamic or provide a method implementation319250252#229#236#0(6@90"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/QueryProgressViewController.m319222889#80#0#80#0#0"0(0#0#90"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/QueryProgressViewController.m8633938336#2182"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-chxqdhshrkcjavfzgodkxcorvpvj/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/QueryProgressViewController.m -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/QueryProgressViewController.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/RootViewController.o /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318568041.018641
+e318568041.162947
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/RootViewController.o
+x/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/RootViewController.m:224: warning: property 'nibLoadedCell' requires method '-nibLoadedCell' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/RootViewController.m:224: warning: property 'nibLoadedCell' requires the method 'setNibLoadedCell:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@90"Compile /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/RootViewController.m318568041#318568041#0(471"/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/RootViewController.m:224: warning: property 'nibLoadedCell' requires method '-nibLoadedCell' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/RootViewController.m:224: warning: property 'nibLoadedCell' requires the method 'setNibLoadedCell:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@134"Property 'nibLoadedCell' requires method '-nibLoadedCell' to be defined - use @synthesize, @dynamic or provide a method implementation318568041#0#232#0(6@82"/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/RootViewController.m318568039#224#0#224#0#0"0(22@141"Property 'nibLoadedCell' requires the method 'setNibLoadedCell:' to be defined - use @synthesize, @dynamic or provide a method implementation318568041#232#239#0(6@82"/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/RootViewController.m318568039#224#0#224#0#0"0(0#0#82"/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/RootViewController.m8590285152#2175"    cd /Users/marcos/Desktop/code/xcode/tutorials/MovieTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-degkfkcatcvalteeqvyeuumfpiey/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/Classes/RootViewController.m -o /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/RootViewController.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319864782.651875
+e319864782.960844
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/RootViewController.o
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/RootViewController.m:478: warning: incomplete implementation of class 'RootViewController'
+o/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/RootViewController.m:478: warning: method definition for '-showLoadingError' not found
+lSLF07#2@89"Compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/RootViewController.m319864782#319864782#0(300"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/RootViewController.m:478: warning: incomplete implementation of class 'RootViewController'/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/RootViewController.m:478: warning: method definition for '-showLoadingError' not found2(22@55"Incomplete implementation of class 'RootViewController'319864782#0#152#0(6@81"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/RootViewController.m319864782#478#0#478#0#38"incomplete implementation of class '*'0(22@51"Method definition for '-showLoadingError' not found319864782#152#148#0(6@81"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/RootViewController.m319864782#478#0#478#0#35"method definition for '*' not found0(0#0#81"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/RootViewController.m8641449344#2164"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-chxqdhshrkcjavfzgodkxcorvpvj/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/RootViewController.m -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/RootViewController.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s343081122.317482
+e343081122.471131
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/RootViewController.o
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/RootViewController.m: In function '-[RootViewController drawRect:]':
+o/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/RootViewController.m:294: warning: implicit declaration of function 'NewPathWithRoundRect'
+o/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/RootViewController.m:294: warning: initialization makes pointer from integer without a cast
+lSLF07#2@90"Compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/RootViewController.m343081122#343081122#0(438"/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/RootViewController.m: In function '-[RootViewController drawRect:]':/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/RootViewController.m:294: warning: implicit declaration of function 'NewPathWithRoundRect'/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/RootViewController.m:294: warning: initialization makes pointer from integer without a cast2(22@55"Implicit declaration of function 'NewPathWithRoundRect'343081122#131#153#0(6@82"/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/RootViewController.m343081121#294#0#294#0#36"implicit declaration of function '*'0(22@56"Initialization makes pointer from integer without a cast343081122#284#154#0(6@82"/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/RootViewController.m343081121#294#0#294#0#0"0(0#0#82"/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/RootViewController.m8612597312#2659"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DTEST_RESULT_ERROR_BAD_TEAM=1 -DTEST_RESULT_ERROR_NO_SQL=2 -DTEST_RESULT_ERROR_TIMEOUT=3 -DTEST_RESULT_ERROR_AUTH=4 -DTEST_RESULT_ERROR_SQL=5 -DTEST_RESULT_SELECT_NO_ROWS=10 -DTEST_RESULT_SELECT_SUCCESS=11 -DTEST_RESULT_INSERT_NO_ID=20 -DTEST_RESULT_INSERT_SUCCESS=21 -DTEST_RESULT_UPDATE_NO_ROWS=30 -DTEST_RESULT_UPDATE_SUCCESS=31 -DTEST_RESULT_DELETE_NO_ROWS=40 -DTEST_RESULT_DELETE_SUCCESS=41 -DTEST_RESULT_ERROR_UNKNOWN_QUERY_TYPE=500 -DTEST_RESULT_ERROR_UNKNOWN_QUERY_STATE=501 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-eojzthpnbrtozdgpolajwksgedgg/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/RootViewController.m -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/SelectableButton.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/SelectableButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319864768.053986
+e319864768.154077
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/SelectableButton.o
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/SelectableButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/SelectableButton.m319864768#319864768#0(0"0(0#0#79"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/SelectableButton.m8639161728#2160"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-chxqdhshrkcjavfzgodkxcorvpvj/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/SelectableButton.m -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/SelectableButton.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/SelectableButton.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/SelectableButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320857037.616475
+e320857037.724623
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/SelectableButton.o
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/SelectableButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/SelectableButton.m320857037#320857037#0(0"0(0#0#80"/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/SelectableButton.m8616679104#2655"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DTEST_RESULT_ERROR_BAD_TEAM=1 -DTEST_RESULT_ERROR_NO_SQL=2 -DTEST_RESULT_ERROR_TIMEOUT=3 -DTEST_RESULT_ERROR_AUTH=4 -DTEST_RESULT_ERROR_SQL=5 -DTEST_RESULT_SELECT_NO_ROWS=10 -DTEST_RESULT_SELECT_SUCCESS=11 -DTEST_RESULT_INSERT_NO_ID=20 -DTEST_RESULT_INSERT_SUCCESS=21 -DTEST_RESULT_UPDATE_NO_ROWS=30 -DTEST_RESULT_UPDATE_SUCCESS=31 -DTEST_RESULT_DELETE_NO_ROWS=40 -DTEST_RESULT_DELETE_SUCCESS=41 -DTEST_RESULT_ERROR_UNKNOWN_QUERY_TYPE=500 -DTEST_RESULT_ERROR_UNKNOWN_QUERY_STATE=501 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-eojzthpnbrtozdgpolajwksgedgg/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/SelectableButton.m -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/SelectableButton.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TDSemiModalViewController.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/TDSemiModalViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319176303.495254
+e319176303.571166
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TDSemiModalViewController.o
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/TDSemiModalViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/TDSemiModalViewController.m319176303#319176303#0(0"0(0#0#88"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/TDSemiModalViewController.m8625628192#2178"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-chxqdhshrkcjavfzgodkxcorvpvj/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/TDSemiModalViewController.m -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TDSemiModalViewController.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TrinityRestQuery.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/TrinityRestQuery.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319864767.879547
+e319864768.053880
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TrinityRestQuery.o
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/TrinityRestQuery.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/TrinityRestQuery.m319864767#319864768#0(0"0(0#0#79"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/TrinityRestQuery.m8602929952#2160"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-chxqdhshrkcjavfzgodkxcorvpvj/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/TrinityRestQuery.m -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TrinityRestQuery.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TrinityRestQuery.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQuery.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320683190.055948
+e320683190.222081
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TrinityRestQuery.o
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQuery.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQuery.m320683190#320683190#0(0"0(0#0#80"/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQuery.m3414973617650413056#2171"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-fjpztzwpsamuxcerzysaglqypqdd/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQuery.m -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TrinityRestQuery.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TrinityRestQuery2.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQuery2.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320025841.546148
+e320025841.694477
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TrinityRestQuery2.o
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQuery2.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQuery2.m320025841#320025841#0(0"0(0#0#81"/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQuery2.m8619664992#2173"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-fjpztzwpsamuxcerzysaglqypqdd/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQuery2.m -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TrinityRestQuery2.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TrinityRestQueryGuts.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQueryGuts.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s343080975.069899
+e343080975.180685
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TrinityRestQueryGuts.o
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQueryGuts.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQueryGuts.m343080975#343080975#0(0"0(0#0#84"/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQueryGuts.m8609756576#2663"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DTEST_RESULT_ERROR_BAD_TEAM=1 -DTEST_RESULT_ERROR_NO_SQL=2 -DTEST_RESULT_ERROR_TIMEOUT=3 -DTEST_RESULT_ERROR_AUTH=4 -DTEST_RESULT_ERROR_SQL=5 -DTEST_RESULT_SELECT_NO_ROWS=10 -DTEST_RESULT_SELECT_SUCCESS=11 -DTEST_RESULT_INSERT_NO_ID=20 -DTEST_RESULT_INSERT_SUCCESS=21 -DTEST_RESULT_UPDATE_NO_ROWS=30 -DTEST_RESULT_UPDATE_SUCCESS=31 -DTEST_RESULT_DELETE_NO_ROWS=40 -DTEST_RESULT_DELETE_SUCCESS=41 -DTEST_RESULT_ERROR_UNKNOWN_QUERY_TYPE=500 -DTEST_RESULT_ERROR_UNKNOWN_QUERY_STATE=501 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-eojzthpnbrtozdgpolajwksgedgg/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQueryGuts.m -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TrinityRestQueryGuts.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TrinityRestQueryView.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQueryView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320857066.448689
+e320857066.630152
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TrinityRestQueryView.o
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQueryView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQueryView.m:323: warning: incomplete implementation of class 'TrinityRestQueryView'
+o/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQueryView.m:323: warning: method definition for '-setQueryText:withArgs:' not found
+lSLF07#2@92"Compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQueryView.m320857066#320857066#0(314"/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQueryView.m:323: warning: incomplete implementation of class 'TrinityRestQueryView'/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQueryView.m:323: warning: method definition for '-setQueryText:withArgs:' not found2(22@57"Incomplete implementation of class 'TrinityRestQueryView'320857066#0#157#0(6@84"/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQueryView.m320857063#323#0#323#0#38"incomplete implementation of class '*'0(22@57"Method definition for '-setQueryText:withArgs:' not found320857066#157#157#0(6@84"/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQueryView.m320857063#323#0#323#0#35"method definition for '*' not found0(0#0#84"/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQueryView.m8613700832#2663"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DTEST_RESULT_ERROR_BAD_TEAM=1 -DTEST_RESULT_ERROR_NO_SQL=2 -DTEST_RESULT_ERROR_TIMEOUT=3 -DTEST_RESULT_ERROR_AUTH=4 -DTEST_RESULT_ERROR_SQL=5 -DTEST_RESULT_SELECT_NO_ROWS=10 -DTEST_RESULT_SELECT_SUCCESS=11 -DTEST_RESULT_INSERT_NO_ID=20 -DTEST_RESULT_INSERT_SUCCESS=21 -DTEST_RESULT_UPDATE_NO_ROWS=30 -DTEST_RESULT_UPDATE_SUCCESS=31 -DTEST_RESULT_DELETE_NO_ROWS=40 -DTEST_RESULT_DELETE_SUCCESS=41 -DTEST_RESULT_ERROR_UNKNOWN_QUERY_TYPE=500 -DTEST_RESULT_ERROR_UNKNOWN_QUERY_STATE=501 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-eojzthpnbrtozdgpolajwksgedgg/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/Classes/TrinityRestQueryView.m -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/TrinityRestQueryView.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/UIViewController+TDSemiModalExtension.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/UIViewController+TDSemiModalExtension.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319176303.436248
+e319176303.534377
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/UIViewController+TDSemiModalExtension.o
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/UIViewController+TDSemiModalExtension.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/UIViewController+TDSemiModalExtension.m319176303#319176303#0(0"0(0#0#100"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/UIViewController+TDSemiModalExtension.m8627990976#2202"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-chxqdhshrkcjavfzgodkxcorvpvj/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable/Classes/UIViewController+TDSemiModalExtension.m -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/UIViewController+TDSemiModalExtension.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/main.o /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318463624.504015
+e318463624.579833
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/main.o
+x/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/main.m318463624#318463624#0(0"0(0#0#60"/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/main.m8610201536#2139"    cd /Users/marcos/Desktop/code/xcode/tutorials/MovieTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-degkfkcatcvalteeqvyeuumfpiey/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/main.m -o /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/main.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/main.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318693880.594181
+e318693880.754899
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/main.o
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable/main.m318693880#318693880#0(0"0(0#0#59"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/main.m8611851200#2128"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-chxqdhshrkcjavfzgodkxcorvpvj/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable/main.m -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/main.o0#
+
+CCompileC build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/main.o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320857037.394046
+e320857037.476675
+r1
+xCompileC
+xbuild/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/main.o
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/main.m320857037#320857037#0(0"0(0#0#60"/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/main.m8616784864#2623"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DTEST_RESULT_ERROR_BAD_TEAM=1 -DTEST_RESULT_ERROR_NO_SQL=2 -DTEST_RESULT_ERROR_TIMEOUT=3 -DTEST_RESULT_ERROR_AUTH=4 -DTEST_RESULT_ERROR_SQL=5 -DTEST_RESULT_SELECT_NO_ROWS=10 -DTEST_RESULT_SELECT_SUCCESS=11 -DTEST_RESULT_INSERT_NO_ID=20 -DTEST_RESULT_INSERT_SUCCESS=21 -DTEST_RESULT_UPDATE_NO_ROWS=30 -DTEST_RESULT_UPDATE_SUCCESS=31 -DTEST_RESULT_DELETE_NO_ROWS=40 -DTEST_RESULT_DELETE_SUCCESS=41 -DTEST_RESULT_ERROR_UNKNOWN_QUERY_TYPE=500 -DTEST_RESULT_ERROR_UNKNOWN_QUERY_STATE=501 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -include /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-eojzthpnbrtozdgpolajwksgedgg/MovieTable_Prefix.pch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/main.m -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/MainWindow.xib
+s318567995.659407
+e318567996.075603
+r1
+xCompileXIB
+x/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib318567995#318567996#0(0"0(0#0#68"/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/MainWindow.xib8614742176#618"    cd /Users/marcos/Desktop/code/xcode/tutorials/MovieTable    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/MainWindow.nib /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/MovieEditorViewController.xib
+s318488309.128292
+e318488309.571354
+r1
+xCompileXIB
+x/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/MovieEditorViewController.xib
+lSLF07#2@40"CompileXIB MovieEditorViewController.xib318488309#318488309#0(0"0(0#0#83"/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/MovieEditorViewController.xib8616728480#648"    cd /Users/marcos/Desktop/code/xcode/tutorials/MovieTable    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/MovieEditorViewController.nib /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/MovieEditorViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/MovieTableCell.xib
+s318565781.701975
+e318565782.138210
+r1
+xCompileXIB
+x/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/MovieTableCell.xib
+lSLF07#2@29"CompileXIB MovieTableCell.xib318565781#318565782#0(0"0(0#0#72"/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/MovieTableCell.xib8617798336#626"    cd /Users/marcos/Desktop/code/xcode/tutorials/MovieTable    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/MovieTableCell.nib /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/MovieTableCell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/RootViewController.xib
+s318565781.686163
+e318565782.115304
+r1
+xCompileXIB
+x/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib318565781#318565782#0(0"0(0#0#76"/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/RootViewController.xib8612562944#634"    cd /Users/marcos/Desktop/code/xcode/tutorials/MovieTable    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/RootViewController.nib /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/marcos/Desktop/code/xcode/tutorials/RestTable/MainWindow.xib
+r0
+
+CCompileXIB /Users/marcos/Desktop/code/xcode/tutorials/RestTable/MovieEditorViewController.xib
+r0
+
+CCompileXIB /Users/marcos/Desktop/code/xcode/tutorials/RestTable/MovieTableCell.xib
+r0
+
+CCompileXIB /Users/marcos/Desktop/code/xcode/tutorials/RestTable/QueryProgressView.xib
+s319170455.965117
+e319170456.450622
+r1
+xCompileXIB
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable/QueryProgressView.xib
+lSLF07#2@32"CompileXIB QueryProgressView.xib319170455#319170456#0(0"0(0#0#74"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/QueryProgressView.xib8615824448#629"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/QueryProgressView.nib /Users/marcos/Desktop/code/xcode/tutorials/RestTable/QueryProgressView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/marcos/Desktop/code/xcode/tutorials/RestTable/QueryProgressViewController.xib
+s319222926.000744
+e319222926.432056
+r1
+xCompileXIB
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable/QueryProgressViewController.xib
+lSLF07#2@42"CompileXIB QueryProgressViewController.xib319222926#319222926#0(0"0(0#0#84"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/QueryProgressViewController.xib8603464320#649"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/QueryProgressViewController.nib /Users/marcos/Desktop/code/xcode/tutorials/RestTable/QueryProgressViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/marcos/Desktop/code/xcode/tutorials/RestTable/QueryProgressView_temp.xib
+r0
+
+CCompileXIB /Users/marcos/Desktop/code/xcode/tutorials/RestTable/RootViewController.xib
+s319406867.499599
+e319406867.899463
+r1
+xCompileXIB
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib319406867#319406867#0(0"0(0#0#75"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/RootViewController.xib31244220638101620#631"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/RootViewController.nib /Users/marcos/Desktop/code/xcode/tutorials/RestTable/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/MainWindow.xib
+r0
+
+CCompileXIB /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/MovieEditorViewController.xib
+r0
+
+CCompileXIB /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/MovieTableCell.xib
+r0
+
+CCompileXIB /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/RootViewController.xib
+r0
+
+CCpResource build/Debug-iphonesimulator/MovieTable.app/ToggleButtonDown.png ToggleButtonDown.png
+s319406867.501581
+e319406867.542743
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MovieTable.app/ToggleButtonDown.png
+xToggleButtonDown.png
+lSLF07#2@25"Copy ToggleButtonDown.png319406867#319406867#0(0"0(0#0#73"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/ToggleButtonDown.png8603043488#523"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/marcos/Desktop/code/xcode/tutorials/RestTable/ToggleButtonDown.png /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app0#
+
+CCpResource build/Debug-iphonesimulator/MovieTable.app/ToggleButtonNormal.png ToggleButtonNormal.png
+s319406867.500771
+e319406867.530386
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MovieTable.app/ToggleButtonNormal.png
+xToggleButtonNormal.png
+lSLF07#2@27"Copy ToggleButtonNormal.png319406867#319406867#0(0"0(0#0#75"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/ToggleButtonNormal.png8616824672#525"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/marcos/Desktop/code/xcode/tutorials/RestTable/ToggleButtonNormal.png /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app0#
+
+CCpResource build/Debug-iphonesimulator/MovieTable.app/ToggleButtonSelected.png ToggleButtonSelected.png
+s319406867.502605
+e319406867.530531
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MovieTable.app/ToggleButtonSelected.png
+xToggleButtonSelected.png
+lSLF07#2@29"Copy ToggleButtonSelected.png319406867#319406867#0(0"0(0#0#77"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/ToggleButtonSelected.png8590400960#527"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/marcos/Desktop/code/xcode/tutorials/RestTable/ToggleButtonSelected.png /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app0#
+
+CGenerateDSYMFile /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app.dSYM /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/MovieTable
+s318568041.192629
+e318568041.209422
+r1
+xGenerateDSYMFile
+x/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app.dSYM
+x/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/MovieTable
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/MovieTable.app.dSYM build/Debug-iphonesimulator/MovieTable.app/MovieTable318568041#318568041#0(0"0(0#0#107"/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/MovieTable8617404224#437"    cd /Users/marcos/Desktop/code/xcode/tutorials/MovieTable    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/MovieTable -o /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app.dSYM0#
+
+CGenerateDSYMFile /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app.dSYM /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/MovieTable
+s319864782.989849
+e319864783.012014
+r1
+xGenerateDSYMFile
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app.dSYM
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/MovieTable
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/MovieTable.app.dSYM build/Debug-iphonesimulator/MovieTable.app/MovieTable319864782#319864783#0(0"0(0#0#106"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/MovieTable8644323232#434"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/MovieTable -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app.dSYM0#
+
+CGenerateDSYMFile /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app.dSYM /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app/MovieTable
+s343081122.502516
+e343081122.525099
+r1
+xGenerateDSYMFile
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app.dSYM
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app/MovieTable
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/MovieTable.app.dSYM build/Debug-iphonesimulator/MovieTable.app/MovieTable343081122#343081122#0(0"0(0#0#107"/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app/MovieTable8613076640#437"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app/MovieTable -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app.dSYM0#
+
+CLd /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/MovieTable normal i386
+s318568041.163026
+e318568041.192521
+r1
+xLd
+x/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/MovieTable
+xnormal
+xi386
+lSLF07#2@112"Link /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/MovieTable318568041#318568041#0(0"0(0#0#0"8617853056#990"    cd /Users/marcos/Desktop/code/xcode/tutorials/MovieTable    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator -F/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator -filelist /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieTable.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/MovieTable0#
+
+CLd /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/MovieTable normal i386
+s319864782.960930
+e319864782.989744
+r1
+xLd
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/MovieTable
+xnormal
+xi386
+lSLF07#2@111"Link /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/MovieTable319864782#319864782#0(0"0(0#0#0"8646779072#1007"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator -filelist /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieTable.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/MovieTable0#
+
+CLd /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app/MovieTable normal i386
+s343081122.471219
+e343081122.502425
+r1
+xLd
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app/MovieTable
+xnormal
+xi386
+lSLF07#2@112"Link /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app/MovieTable343081122#343081122#0(0"0(0#0#0"8613280448#1012"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable2    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator -filelist /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/Objects-normal/i386/MovieTable.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app/MovieTable0#
+
+CProcessInfoPlistFile /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/Info.plist MovieTable-Info.plist
+s318463623.188226
+e318463623.199138
+r1
+xProcessInfoPlistFile
+x/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/Info.plist
+xMovieTable-Info.plist
+lSLF07#2@29"Process MovieTable-Info.plist318463623#318463623#0(0"0(0#0#75"/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/MovieTable-Info.plist28429423627075696#533"    cd /Users/marcos/Desktop/code/xcode/tutorials/MovieTable    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MovieTable-Info.plist -genpkginfo /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app/Info.plist MovieTable-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app/Info.plist MovieTable-Info.plist
+r0
+
+CProcessPCH /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-chxqdhshrkcjavfzgodkxcorvpvj/MovieTable_Prefix.pch.gch MovieTable_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318693879.514629
+e318693880.593844
+r1
+xProcessPCH
+x/var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-chxqdhshrkcjavfzgodkxcorvpvj/MovieTable_Prefix.pch.gch
+xMovieTable_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile MovieTable_Prefix.pch318693879#318693880#0(0"0(0#0#74"/Users/marcos/Desktop/code/xcode/tutorials/RestTable/MovieTable_Prefix.pch7308324465482754048#2003"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable/MovieTable_Prefix.pch -o /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-chxqdhshrkcjavfzgodkxcorvpvj/MovieTable_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-degkfkcatcvalteeqvyeuumfpiey/MovieTable_Prefix.pch.gch MovieTable_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318463623.661436
+e318463624.503730
+r1
+xProcessPCH
+x/var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-degkfkcatcvalteeqvyeuumfpiey/MovieTable_Prefix.pch.gch
+xMovieTable_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile MovieTable_Prefix.pch318463623#318463624#0(0"0(0#0#75"/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/MovieTable_Prefix.pch8606116608#2013"    cd /Users/marcos/Desktop/code/xcode/tutorials/MovieTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -c /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/MovieTable_Prefix.pch -o /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-degkfkcatcvalteeqvyeuumfpiey/MovieTable_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-eojzthpnbrtozdgpolajwksgedgg/MovieTable_Prefix.pch.gch MovieTable_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s320857036.623321
+e320857037.393791
+r1
+xProcessPCH
+x/var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-eojzthpnbrtozdgpolajwksgedgg/MovieTable_Prefix.pch.gch
+xMovieTable_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile MovieTable_Prefix.pch320857036#320857037#0(0"0(0#0#75"/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/MovieTable_Prefix.pch8616826560#2497"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DTEST_RESULT_ERROR_BAD_TEAM=1 -DTEST_RESULT_ERROR_NO_SQL=2 -DTEST_RESULT_ERROR_TIMEOUT=3 -DTEST_RESULT_ERROR_AUTH=4 -DTEST_RESULT_ERROR_SQL=5 -DTEST_RESULT_SELECT_NO_ROWS=10 -DTEST_RESULT_SELECT_SUCCESS=11 -DTEST_RESULT_INSERT_NO_ID=20 -DTEST_RESULT_INSERT_SUCCESS=21 -DTEST_RESULT_UPDATE_NO_ROWS=30 -DTEST_RESULT_UPDATE_SUCCESS=31 -DTEST_RESULT_DELETE_NO_ROWS=40 -DTEST_RESULT_DELETE_SUCCESS=41 -DTEST_RESULT_ERROR_UNKNOWN_QUERY_TYPE=500 -DTEST_RESULT_ERROR_UNKNOWN_QUERY_STATE=501 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/MovieTable_Prefix.pch -o /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-eojzthpnbrtozdgpolajwksgedgg/MovieTable_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-fjpztzwpsamuxcerzysaglqypqdd/MovieTable_Prefix.pch.gch MovieTable_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s320025840.382767
+e320025841.210925
+r1
+xProcessPCH
+x/var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-fjpztzwpsamuxcerzysaglqypqdd/MovieTable_Prefix.pch.gch
+xMovieTable_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile MovieTable_Prefix.pch320025840#320025841#0(0"0(0#0#75"/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/MovieTable_Prefix.pch8643557376#2013"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-generated-files.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-own-target-headers.hmap -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-all-target-headers.hmap -iquote /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/MovieTable-project-headers.hmap -F/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/include -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources/i386 -I/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/MovieTable.build/Debug-iphonesimulator/MovieTable.build/DerivedSources -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/MovieTable_Prefix.pch -o /var/folders/HM/HMPDcPnuE40TW8d57qD7w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieTable_Prefix-fjpztzwpsamuxcerzysaglqypqdd/MovieTable_Prefix.pch.gch0#
+
+CTouch /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app
+s318568041.209505
+e318568041.211895
+r1
+xTouch
+x/Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app
+lSLF07#2@102"Touch /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app318568041#318568041#0(0"0(0#0#0"8616778080#311"    cd /Users/marcos/Desktop/code/xcode/tutorials/MovieTable    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/marcos/Desktop/code/xcode/tutorials/MovieTable/build/Debug-iphonesimulator/MovieTable.app0#
+
+CTouch /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app
+s319864783.012097
+e319864783.014505
+r1
+xTouch
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app
+lSLF07#2@101"Touch /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app319864783#319864783#0(0"0(0#0#0"8643511008#309"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable/build/Debug-iphonesimulator/MovieTable.app0#
+
+CTouch /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app
+s343081122.525183
+e343081122.527653
+r1
+xTouch
+x/Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app
+lSLF07#2@102"Touch /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app343081122#343081122#0(0"0(0#0#0"8612951936#311"    cd /Users/marcos/Desktop/code/xcode/tutorials/RestTable2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/marcos/Desktop/code/xcode/tutorials/RestTable2/build/Debug-iphonesimulator/MovieTable.app0#
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_height="fill_parent" 
+	android:id="@+id/linearLayout1" 
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_gravity="center_horizontal" android:gravity="top">
+	
+	<ImageView
+        android:id="@+id/about_icon"
+        android:src="@drawable/aboutboard" 
+        android:layout_weight="1" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_centerHorizontal="true" android:layout_marginTop="25dip"/>
+        
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" 
+	    android:id="@+id/aboutTextMedium" 
+	    android:text="Developed by Senior Software Class of 2012 at Trinity University" 
+	    android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:layout_centerHorizontal="true" android:layout_marginTop="200dip"></TextView>
+	    
+    <Button android:text="Feedback/Support" 
+	    android:layout_width="wrap_content" 
+	    android:id="@+id/button1" 
+	    android:layout_height="wrap_content" 
+	    android:layout_below="@+id/randomuselessbutton" 
+	    android:layout_centerHorizontal="true" android:layout_marginTop="275dp"
+	    android:onClick="Email"></Button>
+	    
+	<TextView android:textAppearance="?android:attr/textAppearanceSmall" 
+	    android:id="@+id/aboutaboutaboutaboutaboutaboutabout" 
+	    android:text="TUtor Me Version 1.0.1" 
+	    android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:layout_centerHorizontal="true" android:layout_marginTop="350dip"></TextView>
+	
+	<TextView android:textAppearance="?android:attr/textAppearanceSmall" 
+	    android:id="@+id/aboutaboutaboutaboutaboutaboutaboutaboutaboutaboutaboutaboutaboutabout" 
+	    android:text="Copyright 2011" 
+	    android:gravity="center"
+	    android:layout_centerHorizontal="true" 
+	    android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="375dip"></TextView>    
+</RelativeLayout>

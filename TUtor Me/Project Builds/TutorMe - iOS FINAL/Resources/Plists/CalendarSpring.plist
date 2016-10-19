@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Date</key>
+		<string>January 2</string>
+		<key>Description</key>
+		<string>First day to apply for a degree at Winter Commencement</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>January 8</string>
+		<key>Description</key>
+		<string>Residence halls reopen at noon</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>January 8-10</string>
+		<key>Description</key>
+		<string>New Student Orientation</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>January 10</string>
+		<key>Description</key>
+		<string>Registration for Spring semester (see Spring Class Schedule for registration information)</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>January 10</string>
+		<key>Description</key>
+		<string>Add/Drop and late registration begin</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>January 11</string>
+		<key>Description</key>
+		<string>Beginning of classes: 8:30 a.m.</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>January 16</string>
+		<key>Description</key>
+		<string>Martin Luther King, Jr., Day; University holiday; offices closed; no classes</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>January 19</string>
+		<key>Description</key>
+		<string>Add/Drop ends and last day to register</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>February 1</string>
+		<key>Description</key>
+		<string>Last day to change Pass/Fail</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>March 10-18</string>
+		<key>Description</key>
+		<string>Spring break; no classes</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>March 13</string>
+		<key>Description</key>
+		<string>Mid-semester grades due: 5:00 p.m.</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>March 13</string>
+		<key>Description</key>
+		<string>Last day a graduate student may withdraw from a course without approval</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>March 22</string>
+		<key>Description</key>
+		<string>Last day an undergraduate student may withdraw from a course with a “W”</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>March 30-31</string>
+		<key>Description</key>
+		<string>Spring Family Weekend</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>April 1</string>
+		<key>Description</key>
+		<string>Spring Family Weekend</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>April 6</string>
+		<key>Description</key>
+		<string>Good Friday; University holiday; offices closed; no classes</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>April 9-20</string>
+		<key>Description</key>
+		<string>Registration of currently enrolled students for Summer and Fall semesters, 2011</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>April 20</string>
+		<key>Description</key>
+		<string>Last day for graduate degree candidates to submit theses or projects to Academic Affairs (Spring Commencement)</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>April 20</string>
+		<key>Description</key>
+		<string>Honors theses due in Office of Academic Affairs for May degree candidates</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>April 30</string>
+		<key>Description</key>
+		<string>Last day to apply for a degree at Winter Commencement</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>April 30</string>
+		<key>Description</key>
+		<string>Reading Days</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>May 1</string>
+		<key>Description</key>
+		<string>Reading Days</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>May 2-8</string>
+		<key>Description</key>
+		<string>Final examinations (begin on May 2: 8:30 a.m.)</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>May 9</string>
+		<key>Description</key>
+		<string>Residence halls close at noon, May 9, except for graduating seniors who may remain until noon, May 13</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>May 10</string>
+		<key>Description</key>
+		<string>Grades due for graduating seniors: noon</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>May 12</string>
+		<key>Description</key>
+		<string>Spring Commencement: Graduate Commencement, 9:00 a.m.; Undergraduate Commencement, 10:30 a.m.</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>May 14</string>
+		<key>Description</key>
+		<string>Spring semester grades due: 5:00 p.m.</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string> May 28</string>
+		<key>Description</key>
+		<string>Memorial Day; University holiday; offices closed; no classes</string>
+	</dict>
+</array>
+</plist>
